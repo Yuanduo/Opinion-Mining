@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="gb2312"?>
+
+<Rules>
+<rule>.*(即使/c|即便/c|不论/c|不管/c|无论/c).*(也/d|都/d)<CompareType>2</CompareType></rule>
+<rule>.*(虽然/c).*(但是/c)<CompareType>2</CompareType></rule>
+<rule>.*(没有/v).*(就/d 没有/v|便/d 没有/v|就/d 没有/d)<CompareType>3</CompareType></rule>
+<rule>.*(如果/c|假如/c|要/v 是/vshi).*(就/d)<CompareType>1</CompareType></rule>
+<rule>.*(一旦/c|只要/c).*(就/d)<CompareType>1</CompareType></rule>
+<rule>.*(只/d 有/vyou|只有/c|除非/c).*(才/d)<CompareType>1</CompareType></rule>
+<rule>.*(除非/c|最好|应该).*(否则/c|不然/c)<CompareType>1</CompareType></rule>
+</Rules>
+
+

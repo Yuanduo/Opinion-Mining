@@ -1,0 +1,17 @@
+红/a 酒/n 含有/v 二氧化硫/n ，/wd 却/d 没有/v 在/p 标签/n 上/f 注明/v ！/wt 近期/t 一/m 次/qv 葡萄酒/n 市场/n 抽检/vn 行动/vn 中/f ，/wd 省城/n 工商/n 部门/n 发现/v 抽检/v 的/ude1 红/a 酒/n 存在/v 标签/n 上/f 未/d 注明/v 添加剂/n 名称/n 的/ude1 现象/n 。/wj 二氧化硫/n 究竟/d 为/v 何物/r ？/ww 对/p 人体/n 有/vyou 没/d 有/vyou 危害/vn ？/ww 工商/n 部门/n 介绍/v ，/wd 预/d 包装/v 食品/n 的/ude1 标签/n 应当/v 标明/v 食品/n 添加剂/n 名称/n 。/wj 
+
+　　近期/t ，/wd 合肥市/ns 工商局/n 经济/n 检查/vn 执法/vn 局/n 对/p 省城/n 超市/n 内/f 的/ude1 多/m 款/q 红/a 酒/n 进行/vx 了/ule 统一/a 抽检/vn 。/wj 被/pbei 抽检/v 红/a 酒/n 总体/n 质量/n 不错/a ，/wd 但/c 一些/mq 重要/a 的/ude1 添加剂/n 成分/n 却/d 没有/d 标注/v 出来/vf 。/wj “/wyz 我们/rr 发现/v 一些/mq 红/a 酒/n 含有/v 微量/b 二氧化硫/n ，/wd 但/c 红/a 酒瓶/n 身/ng 标签/n 上/f 只/d 标注/v 了/ule 原料/n ，/wd 却/d 没有/v 将/p 这项/r 添加剂/n 标注/v 清楚/a 。/wj ”/wyy 
+
+　　昨日/t ，/wd 记者/n 走访/v 了/ule 老/a 市府/n 广场/n 附近/f 的/ude1 两/m 家/q 大型/b 超市/n 。/wj 货架/n 上/f 摆放/v 的/ude1 红/a 酒/n 以/p 国内/s 知名/a 品牌/n 为主/vi ，/wd 记者/n 在/p 一/m 瓶/q 品牌/n 红/a 酒/n 的/ude1 瓶/n 身/ng 标签/n 上/f 看到/v 有/vyou 原料/n 、/wn 辅料/n 成分/n ，/wd 辅料/n 一/m 栏/n 里/f 注明/v 含有/v 食品/n 添加剂/n ：/wp 山/n 梨/n 酸/a 钾/n 、/wn 微量/b 二氧化硫/n 。/wj 旁边/f 货架/n 上/f 放/v 着/uzhe 一/m 款/q 本地/rzs 产/v 红/a 酒/n ，/wd 瓶/n 身上/s 有/vyou 原料/n 、/wn 生产/vn 厂家/n 、/wn 规格/n 、/wn 地址/n 等/udeng 详细/a 信息/n ，/wd 但/c 并/d 没有/d 注明/v 添加剂/n 包括/v 二氧化硫/n 。/wj 
+
+　　同/p 一/m 品牌/n 不同/a 款/n 的/ude1 红/a 酒/n 标签/n 也/d 有/vyou 区别/n ，/wd 有的/rz 在/p 配料/n 表里/n 标明/v 含有/v 微量/b 山/n 梨/n 酸/a 钾/n 、/wn 二氧化硫/n ，/wd 有的/rz 只/d 标明/v 原料/n 是/vshi 100%/m 葡萄汁/n ，/wd 也/d 没有/d 注明/v 添加剂/n 。/wj 很多/m 标签/n 上/f 虽然/c 标明/v 含有/v 微量/b 二氧化硫/n ，/wd 但/c 未/d 标明/v 具体/a 含量/n 。/wj 
+
+　　“/wyz 葡萄酒/n 里/f 含/v 二氧化硫/n ？/ww 我/rr 不/d 知道/v 啊/y ，/wd 有/vyou 没/d 有/vyou 危害/vn ？/ww ”/wyy 面对/v 记者/n 询问/v ，/wd 6/m 位/q 接受/v 采访/v 的/ude1 消费者/n 第一/m 反应/vn 都/d 有些/rz 惊讶/a 。/wj 大部分/m 消费者/n 表示/v 买/v 红/a 葡萄酒/n 只/d 挑/v 牌子/n ，/wd 不/d 会/v 留意/v 瓶/n 身上/s 的/ude1 标签/n ，/wd 更/d 不会/v 留意/v 标签/n 上/f 有/vyou 没/d 有/vyou 标注/n 含/v 添加剂/n 。/wj 只有/c 一/m 位/q 消费者/n 表示/v ，/wd 虽然/c 知道/v 葡萄酒/n 肯定/d 含有/v 添加剂/n ，/wd 但/c 具体/ad 含有/v 何种/r 成分/n 也/d 是/vshi 一无所知/vl 。/wj 
+
+　　“/wyz 二氧化硫/n 有/vyou 没/d 有/vyou 危害/vn ，/wd 为何/ryv 不/d 在/p 标签/n 上/f 标注/v 清楚/a ？/ww ”/wyy 面对/v 记者/n 的/ude1 疑问/n ，/wd 合肥市/ns 工商局/n 经济/n 检查/vn 执法/vn 局/n 的/ude1 杨平/nr 队长/n 介绍/v ，/wd 葡萄酒/n 酿造/vn 时/ng 都/d 会/v 添加/v 一些/mq 抗/v 氧化剂/n ，/wd 防止/v 再次/d 发酵/vi ，/wd 以此/d 保持/v 葡萄酒/n 的/ude1 新鲜/a 口感/n 。/wj 添加/v 二氧化硫/n 就/d 是/vshi 起/vf 到/v 抗/v 氧化/vi 的/ude1 作用/n 。/wj 按照/p 国家/n 规定/n ，/wd 1/m 升/q 红/a 酒/n 二氧化硫/n 的/ude1 含量/n 在/p 250/m 毫克/q 以下/f 。/wj 在/p 国家/n 规定/n 范围/n 内/f 添加/v 微量/b 的/ude1 二氧化硫/n ，/wd 是/vshi 不/d 会/v 对/p 人体/n 造成/v 伤害/v 的/ude1 。/wj 一些/mq 厂商/n 却/d 觉得/v ，/wd 产品/n 中/f 只/d 含有/v 微量/b 二氧化硫/n ，/wd 不/d 对/p 人体/n 造成/v 危害/vn ，/wd 就/d 没/d 必要/a 标注/n 出来/vf ，/wd 标注/v 出来/vf 容易/ad 让/v 消费者/n 误解/n 。/wj 这/rzv 就/d 导致/v 市面/n 上/f 一些/mq 添加/v 二氧化硫/n 的/ude1 红/a 酒/n 没有/d 标/v 清/a 成分/n 。/wj 
+
+　　据/p 了解/v ，/wd 微量/b 二氧化硫/n 对/p 健康/a 人群/n 无害/vi ，/wd 但/c 对/p 过敏/vn 体质/n 者/k 和/cc 哮喘病/n 人/n 可能/v 有/vyou 影响/vn 。/wj 
+
+　　国家/n 规定/n ，/wd 预/d 包装/v 食品/n 的/ude1 包装/n 上/f 应/v 有/vyou 标签/n ，/wd 标签/n 应/v 标明/v 食品/n 添加剂/n 在/p 国家/n 标准/n 中/f 的/ude1 通用/vn 名称/n 。/wj “/wyz 除非/c 一些/mq 有机/b 葡萄酒/n 、/wn 纯/a 自然/n 发酵/vi 的/ude1 葡萄酒/n ，/wd 不/d 含/v 二氧化硫/n ，/wd 其他/rzv 葡萄酒/n 都/d 应该/v 标/v 清/a 二氧化硫/n 含量/n 。/wj ”/wyy 杨平/nr 说/v 。/wj “/wyz 消费者/n 无法/v 从/p 感官/n 上/f 区分/v 含/v 不/d 含/v 二氧化硫/n ，/wd 这/rzv 就/d 需要/v 我们/rr 对/p 葡萄酒/n 市场/n 进行/vx 不/d 定期/d 抽检/v 。/wj ”/wyy 记者/n 了解/v 到/v ，/wd 自/p 3月/t 7日/t 至/p 年底/t ，/wd 合肥市/ns 工商局/n 经济/n 检查/vn 执法/vn 局/n 对/p 省城/n 酒类/n 市场/n 进行/vx 专项/b 整治/vn ，/wd 其中/rz 葡萄酒/n 在/p 重点/n 品种/n 之/uzhi 列/n 。/wj 工商/n 执法/vn 人员/n 也/d 将/d 以/p 漕/n 冲/v 批发/vn 市场/n 为/p 重点/n ，/wd 开展/v 酒类/n 市场/n 的/ude1 日常/b 巡查/vn 暗访/vn 。/wj 
+
+

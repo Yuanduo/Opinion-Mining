@@ -1,0 +1,8 @@
+中新网/nt 北京/ns 10月/t 18日/t 电/n  (/wkz 记者/n  张朔/nr2 )/wky 中共中央政治局/nt 常委/n 、/wn 国家/n 副/b 主席/n 习近平/n 18日/t 在/p 人民大会堂/ns 会见/v 孟加拉国/nsf 民族主义/n 党/n 主席/n 、/wn 前/f 总理/n 卡莉达·齐亚/nrf 。/wj 
+
+　　习近平/n 说/v ，/wd 中/b 孟/b 建交/vi 以来/f ，/wd 两/m 国/n 关系/n 健康/ad 顺利/ad 发展/v ，/wd 政治/n 互信/v 不断/d 加深/v ，/wd 经贸/b 人文/n 等/udeng 领域/n 的/ude1 交流/vn 与/cc 合作/vn 逐步/d 扩大/v ，/wd 在/p 国际/n 和/cc 地区/n 事务/n 中/f 也/d 保持/v 着/uzhe 良好/a 沟通/vn 与/cc 配合/vn 。/wj 当前/t 中/f 孟/nr1 都/d 处于/v 现代化/vn 建设/vn 的/ude1 关键/n 时期/n ，/wd 面临/v 发展/vn 经济/n 、/wn 改善/v 民生/n 、/wn 实现/v 国家/n 繁荣富强/vl 的/ude1 重要/a 任务/n 。/wj 不断/d 深化/v 双边/n 关系/n ，/wd 全面/ad 开展/v 互利/vd 合作/v ，/wd 符合/v 两/m 国/n 和/cc 两/m 国/n 人民/n 的/ude1 根本/a 利益/n 和/cc 现实/n 需要/v 。/wj 希望/v 双方/n 共同/d 努力/an ，/wd 加快/v 推进/vi 各/rz 领域/n 交流/vn 与/cc 合作/vn ，/wd 推动/v 中/b 孟/b 全面/a 合作/vn 伙伴/n 关系/n 迈/v 上/vf 新/a 台阶/n 。/wj 
+
+　　习近平/n 积极/ad 评价/v 中/b 孟/b 党际/n 关系/n 。/wj 他/rr 说/v ，/wd 中国共产党/n 愿/v 进一步/d 密切/a 与/cc 包括/v 民族主义/n 党/n 在内/u 的/ude1 孟/b 各/rz 主要/b 政党/n 的/ude1 友好/a 交往/vn ，/wd 不断/d 深化/v 治国/vi 理/v 政/ng 经验/n 交流/vn ，/wd 以/p 党际/n 交流/vn 合作/vn 的/ude1 新/a 成果/n 为/p 中/b 孟/b 国家/n 关系/n 的/ude1 发展/vn 作出/v 新/a 贡献/n 。/wj 
+
+　　卡莉达·齐亚/nrf 说/v ，/wd 在/p 中国共产党/n 的/ude1 领导/n 下/f ，/wd 中国/ns 在/p 短短/z 30/m 多/m 年/qt 的/ude1 时间/n 里/f 取得/v 巨大/a 成就/n ，/wd 预祝/v 即将/d 召开/v 的/ude1 中共/n 十八/m 大/a 圆满/a 成功/an 。/wj 她/rr 表示/v ，/wd 中/b 孟/b 建交/vi 以来/f ，/wd 中方/n 在/p 基础/n 设施/n 、/wn 国防/n 建设/vn 等/udeng 方面/n 给予/vx 孟/b 许多/m 无私/b 援助/vn 和/cc 宝贵/a 支持/vn ，/wd 我们/rr 对/p 此/rzs 表示/v 衷心/d 感谢/v 并/cc 希望/v 继续/v 得到/v 中国/ns 的/ude1 帮助/vn 。/wj 孟/b 民族主义/n 党/n 视/vg 中国/ns 为/p 真正/b 的/ude1 朋友/n 和/cc 天然/b 的/ude1 盟友/n ，/wd 将/d 一如既往/vl 地/ude2 坚持/v 一个/mq 中国/ns 政策/n ，/wd 积极/ad 推进/vi 两/m 党/n 两/m 国/n 的/ude1 友好/a 交流/vn 与/cc 合作/vn 。/wj   
+

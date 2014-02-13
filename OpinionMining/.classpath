@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="lib" path="C:/Users/Rando/Desktop/中期检查/OpinionMining1.032位源码/lib/commons-collections-3.2.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Rando/Desktop/中期检查/OpinionMining1.032位源码/lib/commons-configuration-1.6.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Rando/Desktop/中期检查/OpinionMining1.032位源码/lib/commons-lang-2.3.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Rando/Desktop/中期检查/OpinionMining1.032位源码/lib/commons-logging.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Rando/Desktop/中期检查/OpinionMining1.032位源码/lib/dom4j-1.6.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Rando/Desktop/中期检查/OpinionMining1.032位源码/lib/jaxen-1.1-beta-6.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Rando/Desktop/中期检查/OpinionMining1.032位源码/lib/jdom.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Rando/Desktop/中期检查/OpinionMining1.032位源码/lib/libsvm.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Rando/Desktop/中期检查/OpinionMining1.032位源码/lib/log4j-1.2.16.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Rando/Desktop/中期检查/OpinionMining1.032位源码/lib/qtjambi-4.5.2_01.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Rando/Desktop/中期检查/OpinionMining1.032位源码/lib/qtjambi-win32-msvc2005-4.5.2_01.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Rando/Desktop/中期检查/OpinionMining1.032位源码/lib/sqljdbc4.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Rando/Desktop/中期检查/OpinionMining1.032位源码/lib/stanford-parser.jar"/>
+	<classpathentry kind="lib" path="lib/weka.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

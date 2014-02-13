@@ -1,0 +1,9 @@
+财经/n 观察/v ：/wp 国/n 酒/n 商标/n 不/d 能/v 成为/v 茅台/nz 摇钱树/n  
+月/n ，/wd 工商/n 总局/n 商标/n 局/qv 公布/v “/wyz 国/n 酒/n 茅台/nz ”/wyy 商标/n 通过/p 初审/vi 。/wj 此前/t 茅台/nz 共/d 申请/v 了/ule 9/m 次/qv 国/n 酒/n 商标/n ，/wd 均/d 告/v 失败/vi 。/wj 消息/n 一/m 出/vf ，/wd 国内/s 白酒/n 行业/n 、/wn 消费者/n 、/wn 社会/n 舆论/n 纷纷/d 对/p 茅台/nz “/wyz 黄袍/n 加/v 身/ng ”/wyy 的/ude1 行为/n 表达/v 了/ule 强烈/a 不满/an 。/wj 在/p 三/m 个/q 月/n 公告/n 期/qv 内/f 如果/c 没有/v 异议/n 或/c 异议/n 无效/vi ，/wd 茅台/nz 将/d “/wyz 转正/vi ”/wyy 成为/v “/wyz 国/n 酒/n ”/wyy ，/wd 这/rzv 虽然/c 能够/v 在/p 相当/vn 程度/n 上/f 提升/v 茅台/nz 的/ude1 品牌/n 价值/n ，/wd 但/c 公/b 权力/n 机关/n 用/p 国家/n 信用/n 为/p 企业/n 产品/n 背书/vi ，/wd 这/rzv 将/d 有/vyou 损/vg 正常/a 的/ude1 市场/n 竞争/vn ，/wd 对/p 其他/rzv 酒/n 企/ng 也/d 是/vshi 不利/a 的/ude1 。/wj 
+
+　　上半年/t 茅台/nz 业绩/n 不如/c 预期/v 
+
+　　近年来/dl ，/wd 包括/v 五粮液/n 在内/u 的/ude1 部分/n 酒/n 企/ng 对/p 茅台/nz 的/ude1 龙头/n 地位/n 构成/v 了/ule 一定/b 的/ude1 冲击/vn 。/wj 茅台/nz 已经/d 深刻/a 意识/n 到/v 这/rzv 一点/mq ，/wd 不断/d 地/ude2 申请/v “/wyz 国/n 酒/n 茅台/nz ”/wyy 商标/n ，/wd 就是/d 希望/v 能/v 借助/v 国/n 字号/n 商标/n 使/v 其/rz 品牌/n 保鲜/vn ，/wd 巩固/v 其/rz 行业/n “/wyz 老大/n ”/wyy 地位/n 。/wj 
+
+　　贵州/ns 茅台/nz 今年/t 半/m 年/qt 报/n 显示/v ，/wd 2012年/t 上半年/t 公司/n 实现/v 营业/vn 收入/n 132.6亿/m 元/q ，/wd 归属/v 于/p 上市/vn 公司/n 股东/n 的/ude1 净利润/n 近/a 70亿/m 元/q ，/wd 分别/d 同比/n 增长/v 35%/m 和/cc 42.6%/m 。/wj 其中/rz ，/wd 高度/n 茅台酒/n 实现/v 营/vg 收/v 112.4亿/m 元/q ，/wd 同比/n 增长/v 32.5%/m ，/wd 毛利率/n 93.7%/m 。/wj 以上/f 数据/n 数据/n 明显/ad 低于/v 茅台/nz 年初/t 对/p 2012年/t 全年/n 营/vg 收/v 增加/v 51%/m 的/ude1 计划/n ，/wd 这/rzv 也/d 是/vshi 促使/v 茅台/nz 近期/t 大幅/d 提价/vi 的/ude1 原因/n 之一/rz 。/wj 
+    　　茅台酒/n 生产/vn 工艺/n 特殊/a ，/wd 对/p 生产/vn 环境/n 要求/n 非常/d 高/a ，/wd 往往/d 需要/v 5/m 年/qt 时间/n 才/d 会/v 出厂/vi 。/wj 生产/vn 周期/n 长/a ，/wd 自然/d 会/v 影响/vn 产量/n ，/wd 所以/c 茅台/nz 产能/vn 严重/ad 不足/v ，/wd 这/rzv 就/d 制约/v 了/ule 茅台/nz 和/cc 其他/rzv 酒/n 企/ng 的/ude1 竞争/vn 。/wj 不/d 能/v 比/p 产能/vn ，/wd 就/d 只/d 能/v 比/p 利润/n ，/wd 通过/p 高/a 毛利率/n 来/vf 战胜/v 简单/a 的/ude1 数量/n 扩张/vn 。/wj 

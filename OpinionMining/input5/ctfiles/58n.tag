@@ -1,0 +1,17 @@
+小麦/n 提价/vn 面粉/n 不/d 涨/vi  加工/v 企业/n 大/a 面积/n 亏损/vn   
+国家/n 发改委/n 昨日/t 宣布/v ,/wd 明年/t 小麦/n 最低/a 收购价/n 将/d 继续/v 提高/v ,/wd 白/nr1 小麦/n (/wkz 三/m 等/udeng )/wky 每/rz 吨/q 提高/v 100/m 元/q ,/wd 红/a 小麦/n 和/cc 混合/vn 麦/ng (/wkz 三/m 等/udeng )/wky 每/rz 吨/q 提高/v 140/m 元/q ,/wd 分析/v 人士/n 认为/v ,/wd 这/rzv 意味着/v 目前/t 处于/v 历史/n 高位/n 的/ude1 小麦/n 价格/n 下跌/vi 空间/n 基本/ad 封/v 死/v ,/wd 而/cc 被/pbei 成本/n 上涨/vi 拖累/v 的/ude1 面粉/n 加工/vn 企业/n 明年/t 还/d 将/d 面临/v 困/vi 局/n 。/wj 
+
+　　此次/rz 国家/n 提价/vi 收购/v 的/ude1 初衷/n 在于/v 保护/vn 农民/n 种粮/vn 积极性/n ,/wd 国家/n 发改委/n 在/p 公告/n 中/f 称/v ,/wd 2011年/t 生产/v 的/ude1 白/a 小麦/n 、/wn 红/a 小麦/n 和/cc 混合/vn 麦/ng 最低/a 收购价/n 分别/d 提高/v 到/v 每/rz 50/m 公斤/q 95/m 元/q 、/wn 93/m 元/q 和/cc 93/m 元/q ,/wd 比/p 2010年/t 分别/d 提高/v 5/m 元/q 、/wn 7/m 元/q 和/cc 7/m 元/q 。/wj 
+
+　　这/rzv 是/vshi 2008年/t 以来/f ,/wd 国家/n 连续/a 第四/m 次/qv 提高/v 小麦/n 最低/a 收购价/n 。/wj 2006年/t ,/wd 小麦/n 最低/a 收购价/n 制度/n 开始/v 实施/v ,/wd 以/p 三/m 等/udeng 白/a 小麦/n 为/p 例/n ,/wd 2006年/t 的/ude1 最低/a 收购价/n 为/p 每/rz 斤/q 0.72/m 元/q ,/wd 2007年/t 维持/v 这/rzv 一/m 价位/n ,/wd 2008年/t 提高/v 至/p 0.77/m 元/q ,/wd  2009年/t 涨/vi 至/p 0.87/m 元/q ,/wd 今年/t 上/f 调/v 至/p 0.9/m 元/q 。/wj 
+
+　　中华/nz 粮/n 网/n 分析/v 师/ng 卢峰/nr 对/p 《/wkz 第一/m 财经/n 日报/n 》/wky 表示/v ,/wd 在/p 小麦/n 最低/a 收购价/n 的/ude1 强力/n 支撑/vn 下/f ,/wd 今年/t 小麦/n 价格/n 仍/d 处/vi 历史/n 高位/n 。/wj 截至/v 今年/t 10月/t 10日/t ,/wd 三等/b 白/b 小麦/n 全国/n 均/ag 价/n 为/p 每/rz 吨/q 1986/m 元/q ,/wd 不仅/c 每/rz 吨/q 高/a 出/vf 今年/t 国家/n 最低/a 收购价/n 186/m 元/q ,/wd 也/d 高/a 出/vf 明年/t 最低/a 收购价/n 86/m 元/q 。/wj 明年/t 最低/a 收购价/n 的/ude1 出台/vi ,/wd 意味着/v 小麦/n 价格/n 底部/f 进一步/d 被/pbei 抬/v 升/v 。/wj 中华/nz 粮/n 网/n 方面/n 预计/v ,/wd 后期/t 小麦/n 现货/n “/wyz 易/ad 涨/vi 难/ad 跌/v ”/wyy ,/wd 整体/n 市场/n 长期/d 呈现/v 平稳/ad 上涨/vi 态势/n 。/wj 
+
+　　益海嘉里/nrf 集团/n 面粉/n 业务/n 的/ude1 一/m 位/q 高/a 管/v 说/v ,/wd 目前/t 北方/s 秋收/n 已/d 进入/v 尾声/n ,/wd 还/d 有/vyou 半/m 个/q 月/n 就/d 到/v 小麦/n 播种/vn 时节/n ,/wd 国家/n 此时/r 宣布/v 提高/v 小麦/n 最低/a 收购价/n ,/wd 可/c 提升/v 农民/n 种植/vn 积极性/n ,/wd 小麦/n 种/v 得/ude3 越/d 多/a ,/wd 加工/v 企业/n 的/ude1 供应/vn 也/d 就/d 越/d 有/vyou 保障/vn 。/wj 但/c 同时/c 面粉/n 加工/vn 企业/n 随着/p 小麦/n 价格/n 的/ude1 上涨/vn 面临/v 的/ude1 压力/n 可能/v 更/d 大/a 。/wj 业内人士/n 介绍/v ,/wd 与/p 小麦/n 价格/n 的/ude1 上涨/vi 相比/vi ,/wd 面粉/n 价格/n 上调/v 具有/v 一定/d 滞后/v 性/ng 。/wj 
+
+　　中国/ns 粮油/n 控股/vn 有限公司/n 今年/t 上半年/t 销售/v 普通/a 面粉/n 17万/m 吨/q ,/wd 虽然/c 平均/a 价格/n 从/p 去年/t 上半年/t 的/ude1 每/rz 吨/q 2453/m 港元/q 增加/v 到/p 今年/t 上半年/t 的/ude1 2607/m 港元/q ,/wd 但/c 受/v 面粉/n 价格/n 上涨/vn 幅度/n 低于/v 小麦/n 价格/n 上涨/vn 幅度/n 等/udeng 因素/n 影响/vn ,/wd 今年/t 上半年/t 小麦/n 加工/vn 毛利率/n 为/p 8.7%/m ,/wd 与/p 去年/t 同期/f 的/ude1 10.1%/m 相比/vi 低/a 1.4/m 个/q 百分点/n 。/wj 
+
+　　江苏/ns 一/m 家/q 面粉/n 企业/n 负责人/n 告诉/v 记者/n ,/wd 全国/n 每年/r 小麦/n 产量/n 为/p 1.1亿/m 吨/q 左右/m ,/wd 但/c 加工/v 产能/vn 多/a 出/vf 一/m 倍/q 以上/f ,/wd 产能/vn 利用率/n 只/d 有/vyou 约/d 30%/m ,/wd 竞争/v 非常/d 激烈/a ,/wd 再/d 加上/v 面粉/n 价格/n 受/v 宏观/n 调控/vn 影响/vn 较/d 大/a ,/wd 无法/v 与/p 小麦/n 价格/n 同步/vd 提高/v ,/wd 江苏/ns 的/ude1 面粉/n 企业/n 基本/ad 处于/v 亏损/vn 状态/n ;/wf 而/cc 河北/ns 一/m 家/q 大型/b 面粉/n 厂/n 的/ude1 负责人/n 也/d 告诉/v 记者/n ,/wd 河北/ns 面粉/n 企业/n 大部分/m 面临/v 亏损/vn 。/wj 
+
+　　小麦/n 最低/a 收购价/n 的/ude1 提高/vn 还/d 有/vyou 可能/n 引发/v 小麦/n 托/v 市/n 拍卖/vn 价格/n 上涨/vi 的/ude1 连锁反应/nl 。/wj 国家/n 粮库/n 在/p 以/p 最低/a 收购价/n 购得/v 小麦/n 后/f ,/wd 会/v 定期/d 拍卖/v ,/wd 不少/m 加工/vn 企业/n 正是/v 以/p 这些/rz 拍卖/vn 小麦/n 作为/p 粮源/n 。/wj 目前/t 三等/b 白/b 小麦/n 拍卖/vn 底价/n 是/vshi 0.90/m 元/q //n 斤/q ,/wd 与/p 今年/t 小麦/n 最低/a 收购价/n 相同/a ;/wf 明年/t 小麦/n 最低/a 收购价/n 提/v 至/p 0.95/m 元/q ,/wd 拍卖/v 底价/n 顺势/d 提高/v 也/d 在/p 情理/n 之中/f ,/wd 这/rzv 无疑/d 加大/v 了/ule 加工/vn 企业/n 的/ude1 购/vg 粮/n 成本/n 。/wj   
+ 

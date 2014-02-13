@@ -1,0 +1,6 @@
+public class Test{
+  public static void main(String... args) throws Throwable{
+    System.loadLibrary("ICTCLAS2010");
+		System.out.print(new ICTCLAS.kevin.zhang.ICTCLAS2010().ICTCLAS_Init(".".getBytes("GB2312")) ? "OK" : "Init Failed!");
+  }
+}

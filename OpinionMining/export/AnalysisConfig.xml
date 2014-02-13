@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Config>
+
+	<!-- 分词用户词典的相关配置 -->
+	<UserDic>
+		<name>zwuserdict.txt</name>
+	</UserDic>
+	
+	<!-- 复合句模式库 -->
+	<Complex>
+		complex_rules.xml
+	</Complex>
+	
+	<!-- 比较句SVM识别方法相关配置 -->
+	<SVMComparative>
+	<output>.\\output\\output</output>
+	<KeywordBi>
+		<word>比/p</word>
+		<model>.\\train\\bi.model</model>
+	</KeywordBi>
+	<KeywordZui>
+		<word>最/d</word>
+		<model>.\\train\\zui.model</model>
+	</KeywordZui>
+	<KeywordYiYang>
+		<word>一样/uyy</word>
+		<model>.\\train\\yiyang.model</model>
+	</KeywordYiYang>
+	</SVMComparative>
+	
+	<!-- 比较句模式库 -->
+	<XMLComparative>
+		comparative_rules.xml
+	</XMLComparative>
+	
+	<TextToHash>
+	<sentiment_words>.\\Tables\\sentiment_words.txt</sentiment_words>
+	<topics>.\\Tables\\topics.txt</topics>
+	<action_words>.\\Tables\\action_words.txt</action_words>
+	<compare_keywords>.\\Tables\\compare_keywords.txt</compare_keywords>
+	<compare_objects>.\\Tables\\compare_objects.txt</compare_objects>
+	<compare_words>.\\Tables\\compare_words.txt</compare_words>
+	<negation_words>.\\Tables\\negation_words.txt</negation_words>
+	<patterns>.\\Tables\\patterns.txt</patterns>
+	<bi>.\\Tables\\bi.txt</bi>
+	<yiyang>.\\Tables\\yiyang.txt</yiyang>
+	<zui>.\\Tables\\zui.txt</zui>
+	</TextToHash>
+</Config>

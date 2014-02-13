@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+<entry key="profiler.settings.instrument.empty.methods">true</entry>
+<entry key="ProfilerCPUSettings_profile_runnables">true</entry>
+<entry key="ProfilerCPUSettings_filter_type">2</entry>
+<entry key="ProfilerMemorySettings_track_every">10</entry>
+<entry key="ProfilerMemorySettings_mode">4</entry>
+<entry key="ProfilerCPUSettings_root_classes">CSRMining.**
+ICTCLAS.kevin.zhang.**
+a2z.**
+comparativeSentence.**
+edu.stanford.nlp.fsm.**
+edu.stanford.nlp.international.arabic.**
+edu.stanford.nlp.io.**
+edu.stanford.nlp.ling.**
+edu.stanford.nlp.math.**
+edu.stanford.nlp.misc.**
+edu.stanford.nlp.movetrees.**
+edu.stanford.nlp.objectbank.**
+edu.stanford.nlp.parser.**
+edu.stanford.nlp.process.**
+edu.stanford.nlp.stats.**
+edu.stanford.nlp.swing.**
+edu.stanford.nlp.trees.**
+edu.stanford.nlp.util.**
+edu.stanford.nlp.web.**
+libsvm.**
+sqloperation.**
+utility.**
+</entry>
+<entry key="ProfilerCPUSettings_filter_value">CSRMining.*,
+ICTCLAS.kevin.zhang.*,
+a2z.*,
+comparativeSentence.*,
+edu.stanford.nlp.fsm.*,
+edu.stanford.nlp.international.arabic.*,
+edu.stanford.nlp.io.*,
+edu.stanford.nlp.ling.*,
+edu.stanford.nlp.math.*,
+edu.stanford.nlp.misc.*,
+edu.stanford.nlp.movetrees.*,
+edu.stanford.nlp.objectbank.*,
+edu.stanford.nlp.parser.*,
+edu.stanford.nlp.process.*,
+edu.stanford.nlp.stats.*,
+edu.stanford.nlp.swing.*,
+edu.stanford.nlp.trees.*,
+edu.stanford.nlp.util.*,
+edu.stanford.nlp.web.*,
+libsvm.*,
+sqloperation.*,
+utility.*</entry>
+<entry key="profiler.settings.istrument.getter.setter.methods">true</entry>
+<entry key="myeclipse.profiling.mode">0</entry>
+<entry key="ProfilerMemorySettings_stacktraces">-1</entry>
+</properties>

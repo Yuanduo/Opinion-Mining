@@ -1,0 +1,5 @@
+欧盟/n 渔业/n 配额/n 痼疾/n 严重/a  27亿/m 英镑/q 鳕鱼/n 被迫/d 扔/v 回/qv 大海/n   
+英国/ns 新/a 经济学/n 基金会/n （/wkz NEF/x ）/wky 日前/t 发布/v 报告/n 称/v ，/wd 1963/m 至/p 2008年/t 间/f ，/wd 欧盟/n 渔船/n 队/n 共/d 将/p 价值/n 27亿/m 英镑/q 、/wn 重/d 达/v 210万/m 吨/q 的/ude1 已/d 捕获/v 鳕鱼/n 弃/vg 于/p 大海/n ，/wd 以/p 避免/v 违反/v 欧盟/n 的/ude1 相关/vn 配额/n 规定/n 。/wj 而/cc 英国/ns 自/p 1963年/t 以来/f 共计/v 抛弃/v 了/ule 价值/n 10亿/m 英镑/q 的/ude1 鳕鱼/n 。/wj 
+    此/rzs 报告/n 再次/d 引起/v 了/ule 关于/p 渔业/n 管理/vn 条例/n 的/ude1 激烈/a 讨论/vn 。/wj 据称/v ，/wd 遭/v 弃/vg 的/ude1 不/d 只/d 有/vyou 鳕鱼/n ，/wd 这些/rz 鱼/n 被/pbei 扔/v 回/qv 大海/n 的/ude1 原因/n 有/vyou 很多/m ——/wp 可能/v 种类/n 不/d 在/p 可/v 捕获/v 配额/n 中/f ，/wd 也/d 可能/v 是/vshi 捕捞/v 过量/vd 超过/v 了/ule 配额/n ；/wf 又/c 或者/c 是/vshi 个/q 头/n 太/d 小/a ，/wd 经济收益/n 不/d 高/a 。/wj 这些/rz 鱼/n 在/p 被/pbei 扔掉/v 时/ng ，/wd 大部分/m 已经/d 死亡/vi 或/c 即将/d 死亡/vi 。/wj 
+    今年/t 3月/t ，/wd 有/vyou 欧盟/n 负责/v 渔业/n 事务/n 的/ude1 委员/n 呼吁/v 采取/v 措施/n ，/wd 以/p 停止/v 这种/r 弃/vg 鱼/n 的/ude1 做法/n ，/wd 并/cc 要求/n 改革/vn 渔业/n 配额/n 体系/n 。/wj NEF/x 同时/n 指出/v ，/wd 颁布/v 法案/n 禁止/v 弃/vg 鱼/n 对/p 渔业/n 发展/v 来说/uls 是/vshi 个/q 好/a 消息/n ，/wd 此举/rzv 不仅/c 能/v 带来/v 更/d 多/a 收益/n ，/wd 同时/c 也/d 能/v 遏制/v 过度/vd 捕捞/v 。/wj 
+ 

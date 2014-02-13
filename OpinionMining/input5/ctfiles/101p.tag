@@ -1,0 +1,1 @@
+我/rr 将/d 绘制/v 南极/ns 最/d 高/a 精度/n 地图/n ，/wd 有望/v 钻/v 取/v 南极/ns 最/d 古老/a 冰/n 心/n ，/wd 我国/n 科学家/n 准备/v 在/p 冰穹/nr A/x 上/f 找到/v 最佳/z 钻探/v 点/qt ，/wd 开采/v 最/d 古老/a 冰芯/n ，/wd 打开/v 研究/vn 地球/n 气候/n 历史/n 的/ude1 一/m 条/q “/wyz 时光/n 隧道/n ”/wyy 。/wj 

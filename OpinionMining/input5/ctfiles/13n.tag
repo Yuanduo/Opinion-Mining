@@ -1,0 +1,1 @@
+报告/n 表示/v ，/wd 中共/n 法/n 外/f 机构/n 610/m 办公室/n 继续/v 大/a 力度/n 实行/v 迫害/vn 法轮功/n 政策/n ，/wd 至/p 2012年/t 6月/t 有/vyou 3/m ，/wd 533/m 名/q 法轮功/n 学员/n 被/pbei 迫害/v 致死/vi 。/wj 报告/n 说/v ，/wd 西藏/ns 人/n ，/wd 维吾尔族/nz 人/n 和/cc 其它/rz 少数民族/n 抗议/vn 政府/n 对/p 他们/rr 的/ude1 语言/n ，/wd 文化/n 和/cc 宗教/n 实行/v 越来越/d 压制/v 性/ng 的/ude1 政策/n ，/wd 过去/t 一/m 年/qt 发生/v 了/ule 45/m 位/q 西藏/ns 僧侣/n 自焚/vi 的/ude1 悲剧/n 。/wj  

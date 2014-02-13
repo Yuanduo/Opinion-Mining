@@ -1,0 +1,104 @@
+import java.io.BufferedReader;
+import java.io.FileReader;
+import java.io.FileWriter;
+import java.io.PrintWriter;
+import java.util.Calendar;
+import java.util.LinkedList;
+
+import utility.SentiResult;
+
+/**
+ * 句子级别的情感分析模块入口
+ * @author BUPT
+ * @version 1.0
+ */
+public class Main {
+	
+	/**
+	 * 句子级别的情感分析系统main入口
+	 * @param args
+	 * @throws Exception
+	 */
+	public static void main(String[] args) throws Exception
+	{
+		ProcessSentence ps = new ProcessSentence();
+
+		//文件读写操作
+		String rev = "";
+		int lineNo = 0;
+		String input = ".//input//getSynTree//test2.txt";
+		String output = ".//input//output.txt";
+		PrintWriter outf = new PrintWriter(new FileWriter(output));
+		FileReader fr = new FileReader(input);
+		BufferedReader br = new BufferedReader(fr);
+		Calendar ca = Calendar.getInstance();
+		System.out.println(ca.get(Calendar.MINUTE)+"minutes "+ca.get(Calendar.SECOND)+" seconds");
+		int pcount = 0;
+		while((rev = br.readLine())!=null)
+		{
+			outf.flush();
+			//清除文本中的空格，换行符
+			if(rev.trim().equals("")||rev.trim().equals("\n"))
+			{
+				lineNo++;
+				continue;
+			}
+			//句子切分
+			rev = rev.replace("“", "\"");
+			rev = rev.replace("”", "\"");
+			rev = rev.replace(".", ",");
+			rev = rev.replace("，", ",");
+			rev = rev.replace(";", ",");
+			rev = rev.replace("!", ",");
+			rev = rev.replace("?", ",");
+			rev = rev.replace("。", ",");
+			rev = rev.replace("？", ",");
+			rev = rev.replace("；", ",");
+			rev = rev.replace("！", ",");
+			rev = rev.replace(" ",",");
+			rev = rev.replace("--",",");
+			rev = rev.replace("　",",");
+			//rev = rev.replace("、","和");
+			String []Review = rev.split(",");
+			LinkedList<SentiResult> result1 = new LinkedList<SentiResult>();
+			LinkedList<SentiResult> result2 = new LinkedList<SentiResult>();
+			
+			for(int counter = 0 ; counter < Review.length ; counter++)
+			{
+				//分块句子长度处理，截取前30
+				if(Review[counter].length()>30)
+					Review[counter] = Review[counter].substring(0, 29);
+				
+				//情感分析
+				result1 = ps.syntaxAnalyze(Review[counter]);
+				int poS = 0;
+				int poW = 0;
+				//结果输出
+				if(result1.size()>0||result2.size()>0)
+				{
+					
+					System.out.println(Review[counter]);//
+					outf.println(Review[counter]);//
+
+					for(int i = 0 ; i < result1.size() ; i++)
+					{
+						pcount++;
+						System.out.println(pcount+":"+result1.get(i).topic+" "+result1.get(i).sentiment_word+" "+result1.get(i).polarity);
+						outf.println(pcount+":"+result1.get(i).topic+" "+result1.get(i).sentiment_word+" "+result1.get(i).polarity);
+					}
+
+					System.out.println();//
+					outf.println();//
+				}
+				result1.clear();
+				result2.clear();
+			}
+
+		}
+		Calendar ca1 = Calendar.getInstance();
+		System.out.println(ca1.get(Calendar.MINUTE)+"minutes "+ca1.get(Calendar.SECOND)+" seconds");
+	}
+
+
+
+}

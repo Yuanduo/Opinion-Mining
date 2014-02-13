@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="lib" path="E:/Documents/workspace/OpinionMining/lib/commons-logging.jar"/>
+	<classpathentry kind="lib" path="E:/Documents/workspace/OpinionMining/lib/jdom.jar"/>
+	<classpathentry kind="lib" path="E:/Documents/workspace/OpinionMining/lib/log4j-1[1].2.9.jar"/>
+	<classpathentry kind="lib" path="E:/Documents/workspace/OpinionMining/lib/nekohtml-0.9.1.jar"/>
+	<classpathentry kind="lib" path="E:/Documents/workspace/OpinionMining/lib/sqljdbc4.jar"/>
+	<classpathentry kind="lib" path="E:/Documents/workspace/OpinionMining/lib/stanford-parser.jar"/>
+	<classpathentry kind="lib" path="E:/Documents/workspace/OpinionMining/lib/xerces.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

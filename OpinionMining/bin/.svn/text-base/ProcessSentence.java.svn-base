@@ -1,0 +1,824 @@
+import java.io.BufferedReader;
+import java.io.FileReader;
+import java.io.FileWriter;
+import java.io.PrintWriter;
+import java.io.UnsupportedEncodingException;
+import java.sql.ResultSet;
+import java.sql.SQLException;
+import java.util.ArrayList;
+import java.util.Calendar;
+import java.util.HashMap;
+import java.util.LinkedList;
+import java.util.List;
+
+import ICTCLAS.kevin.zhang.ICTCLAS2010;
+import edu.stanford.nlp.trees.Tree;
+import sqloperation.Db;
+import utility.SentiResult;
+import utility.Word;
+
+/**
+ * 情感分析模块
+ * @author BUPT
+ * @version 1.0
+ */
+public class ProcessSentence {
+	private HashMap<String,Integer> sentiment_words = new HashMap<String,Integer>(); //情感词集合
+	private LinkedList<String> patterns = new LinkedList<String>(); //句法模块集合
+	private HashMap<String,Integer> topics = new HashMap<String,Integer>(); //主题词集合
+	private LinkedList<String> negations = new LinkedList<String>(); //否定词集合
+	private LinkedList<String> action_words = new LinkedList<String>(); //二义性词集合
+	private ICTCLAS2010 testICTCLAS30 = new ICTCLAS2010(); //分词模块实例
+	private PathProcessor PR; //依赖关系树句法路径处理类实例
+	
+	public int orientation = 0;
+	private int topicPolarity = 0;
+	private int sentiment = 0;
+	private int negation = 1;
+	
+	public ProcessSentence()
+	{
+		//数据库连接、读取，情感分析变量初始化
+		Db.connect("opinion");
+		try {
+			ResultSet rs = Db.select("sentiment_words", "word","polarity");
+			while(rs.next())
+			{
+				sentiment_words.put(rs.getString("word"), rs.getInt("polarity"));
+			}
+			System.out.println("load senti over");//
+			
+			rs = Db.select("topics", "word","polarity");
+			while(rs.next())
+			{
+				topics.put(rs.getString("word"),rs.getInt("polarity"));
+			}
+			System.out.println("load topics over");//	
+			
+			rs = Db.select("negation_words", "word");
+			while(rs.next())
+			{
+				negations.add(rs.getString("word"));
+			}
+			System.out.println("load neg over");//
+			
+			rs = Db.select("patterns", "pattern");
+			while(rs.next())
+			{
+				patterns.add(rs.getString("pattern"));
+			}
+			System.out.println("load neg over");//
+			
+			rs = Db.select("action_words", "word");
+			while(rs.next())
+			{
+				action_words.add(rs.getString("word"));
+				negations.add(rs.getString("word"));
+			}
+			System.out.println("load verbs over");//
+			
+		} catch (SQLException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		
+		//分词模块初始化，词库的导入
+		String argu = ".";
+		try {
+			if (testICTCLAS30.ICTCLAS_Init(argu.getBytes("GB2312")) == false)
+			{
+				System.out.println("分词模块  Init Fail!");
+			}
+			else
+				System.out.println("分词模块  Init Success!");//
+			String str = "zwuserdict.txt";
+			int nCount = testICTCLAS30.ICTCLAS_ImportUserDict(str.getBytes("GB2312"));
+			
+		} catch (UnsupportedEncodingException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		PR = new PathProcessor();
+	}
+	
+	/**
+	 * 向数据库增加主题词
+	 * @param zhuyu 主题词
+	 * @param type 类型
+	 * @param polarity 表示情感度正面、负面的权重度
+	 */
+	public void addTopic(String zhuyu,int type,int polarity)
+	{
+		Db.insert("topics", zhuyu, type, polarity);
+	}
+	
+	/**
+	 * 向数据库增加情感词
+	 * @param qingganci 情感词
+	 * @param pos 
+	 * @param polarity 表示情感度正面、负面的权重度
+	 */
+	public void addSentiment(String qingganci,String pos,int polarity)
+	{
+		Db.insert("sentiment_words", qingganci,pos,polarity);
+	}
+	
+	/**
+	 * 向数据库增加否定词
+	 * @param word 否定词
+	 */
+	public void addNegation(String word)
+	{
+		Db.insert("negation_words",word);
+	}
+	
+	/**
+	 * 向数据库增加二义性词
+	 * @param verb 二义性词
+	 */
+	public void addAction(String verb)
+	{
+		Db.insert("action_words", verb);
+	}
+	
+	/**
+	 * 基于依赖关系树的情感分析模型
+	 * @param review 已经切分好的句子文本块
+	 * @return 情感度数据列表
+	 */
+	public LinkedList<SentiResult> syntaxAnalyze(String review)
+	{
+		LinkedList<SentiResult> r = new LinkedList<SentiResult>();
+		
+		byte nativeBytes[];
+		try {
+			//分句
+			nativeBytes = testICTCLAS30.ICTCLAS_ParagraphProcess(review.getBytes("GB2312"), 0);
+			String taggedReview = new String(nativeBytes, 0, nativeBytes.length, "GB2312");
+			String[] sent = taggedReview.split(" ");
+			LinkedList<String> ts = new LinkedList<String>();
+			LinkedList<String> ss = new LinkedList<String>();
+			LinkedList<Integer> negs = new LinkedList<Integer>();
+			boolean found = false;
+			boolean hasDun = false;
+			//是否包含顿号
+			if(taggedReview.contains("、"))
+			{
+				hasDun = true;
+			}
+			int pos = -1; //否定词和主题词的距离
+			int neg = 1;
+			for(int i = 0 ; i < sent.length ; i++)
+			{
+				//主题词处理
+				if(topics.containsKey(sent[i]))
+				{
+					found = true;
+					ts.add(sent[i]);
+				}
+				//情感词处理
+				else	if(sentiment_words.containsKey(sent[i]))
+				{
+					int a =0;
+					if(!ss.contains(sent[i]))
+					{
+						//正面的情感词处理
+						if(sentiment_words.get(sent[i])>0)
+						{
+							ss.addLast(sent[i]);
+							negs.addLast(new Integer(1));
+							a = 1;
+						}
+						//负面的情感词处理
+						else
+						{
+							ss.addFirst(sent[i]);
+							negs.addFirst(new Integer(1));
+							a = 2;
+						}
+					}
+					
+					//有否定词，考虑否定词的影响
+					if(pos!=-1)
+					{
+						if(i-pos<=3)
+						{
+							if(a ==1 )
+							{
+								int neN = negs.getLast()*-1;
+								negs.removeLast();
+								negs.addLast(neN);
+							}
+							else
+							{
+								int neN = negs.getFirst()*-1;
+								negs.removeFirst();
+								negs.addFirst(neN);
+							}
+						}
+						pos = -1;
+					}
+				}
+				//否定词处理
+				else	if(negations.contains(sent[i]))
+				{
+					//已经有了否定词，判断相对于上次的否定词的距离
+					if(pos!=-1)
+					{
+						//距离大于3不考虑
+						if(i-pos>3)
+						{
+							pos = i;
+							neg = -1;
+						}
+						else
+						{
+							pos = i;
+							neg *=-1;
+						}
+					}
+					//第一个否定词，设置距离
+					else
+					{
+						pos = i;
+						neg = -1;
+					}
+				}
+			}
+			//找到主题词，顿号后面的忽略
+			if(found&&hasDun)
+			{
+				taggedReview = taggedReview.replaceFirst(".+、", ts.get(0)+"、");
+				taggedReview = taggedReview.replaceAll("、.+、", "");
+				//System.out.println(taggedReview);
+			}
+			//未找到主题词，忽略该行汉字
+			if(!found&&hasDun)
+			{
+				taggedReview = taggedReview.replaceAll("[一-龥]+、", "");
+			}
+			//主题词、情感词过滤
+			for(int i = 0 ; i < ts.size() ; i++)
+			{
+				if(!taggedReview.contains(ts.get(i)))
+				{
+					ts.remove(i);
+					i--;
+				}
+			}
+			for(int i = 0 ; i < ss.size() ; i++)
+			{
+				if(!taggedReview.contains(ss.get(i)))
+				{
+					ss.remove(i);
+					i--;
+				}
+			}
+			
+			//遍历，检查句法模板中是否包含配对的主题词和情感词
+			for(int i = 0 ; i < ts.size() ; i++)
+			{
+				for(int j = 0 ; j < ss.size() ; j++)
+				{
+					if(patterns.contains(PR.getPathOfCertainWords(taggedReview.trim(), ts.get(i), ss.get(j))))
+					{
+						r.add(new SentiResult(ts.get(i),ss.get(j),negs.get(j)*(sentiment_words.get(ss.get(j)))));
+						ts.remove(i);
+						ss.remove(j);
+						i--;
+						break;
+					}
+				}
+			}
+		} catch (UnsupportedEncodingException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		return r;
+	}
+
+	/**
+	 * 向前检查离主题词最近的情感词的距离
+	 * @param midSen 欲判断的词
+	 * @param featureIndex 初步距离
+	 * @return 返回实际距离
+	 */
+	public int upFirstModifierIndex(ArrayList<Word> midSen, int featureIndex)
+	{
+		int indexOfUpFirstModifier = -1;
+		int orientation = 0;
+		//递减推进遍历，直到下一个名词
+		for(int i = 1; (featureIndex - i >= 0) && (!midSen.get(featureIndex - i).getTag().equals("n")) ; i++)
+		{
+			//形容词或区别词
+			if(midSen.get(featureIndex - i).getTag().equals("a") || midSen.get(featureIndex - i).getTag().equals("b"))
+			{
+				orientation = checkAdjective(midSen.get(featureIndex - i).getSrcWord());
+			}
+			//动词
+			if(midSen.get(featureIndex - i).getTag().equals("v"))
+			{
+				orientation = checkVerb(midSen.get(featureIndex - i).getSrcWord());
+			}
+			if(orientation != 0)
+			{
+				//找到候选的情感词，记下距离
+				indexOfUpFirstModifier = featureIndex - i;
+				return indexOfUpFirstModifier;
+			}				
+		}
+		return indexOfUpFirstModifier;
+	}
+	
+	/**
+	 * 向后检查离主题词最近的情感词的距离
+	 * @param midSen 欲判断的词
+	 * @param featureIndex 初步距离
+	 * @return 返回实际距离
+	 */
+	public int downModifierIndex(ArrayList<Word> midSen, int featureIndex)
+	{
+		int indexOfDownModifier = -1;
+		int orientation = 0;
+		//递增推进遍历，直到下一个名词
+		for(int i = 1; (featureIndex + i < midSen.size()) && (!midSen.get(featureIndex + i).getTag().equals("n")); i++)
+		{
+			//形容词或区别词
+			if(midSen.get(featureIndex + i).getTag().equals("a") || midSen.get(featureIndex + i).getTag().equals("b"))
+			{
+				orientation = checkAdjective(midSen.get(featureIndex + i).getSrcWord());
+			}
+			//动词
+			if(midSen.get(featureIndex + i).getTag().equals("v"))
+			{
+				orientation = checkVerb(midSen.get(featureIndex + i).getSrcWord());
+			}
+			if(orientation != 0)
+			{
+				//找到候选的情感词，记下距离
+				indexOfDownModifier = featureIndex + i;
+				return indexOfDownModifier;
+			}				
+		}
+		return indexOfDownModifier;
+	}
+	
+	/**
+	 * 向前检查离主题词最近的情感词的距离
+	 * @param midSen
+	 * @param indexOfUpFirstModifier
+	 * @return
+	 */
+	public int upSecondModifierIndex(ArrayList<Word> midSen, int indexOfUpFirstModifier)
+	{
+		int indexOfUpSecondModifier = -1;
+		int orientation = 0;
+		for(int i = 1; (indexOfUpFirstModifier - i >= 0) && (! midSen.get(indexOfUpFirstModifier - i).getTag().equals("n")) ; i++)
+		{
+			if(midSen.get(indexOfUpFirstModifier - i).getTag().equals("a") || midSen.get(indexOfUpFirstModifier - i).getTag().equals("b"))
+			{
+				orientation = checkAdjective(midSen.get(indexOfUpFirstModifier - i).getSrcWord());
+			}
+			if(midSen.get(indexOfUpFirstModifier - i).getTag().equals("v"))
+			{
+				orientation = checkVerb(midSen.get(indexOfUpFirstModifier - i).getSrcWord());
+			}
+			if(orientation != 0)
+			{
+				indexOfUpSecondModifier = indexOfUpFirstModifier - i;
+				return indexOfUpSecondModifier;
+			}				
+		}
+		return indexOfUpSecondModifier;
+	}
+	
+	/**
+	 * 检查当前词和情感词之间的否定词
+	 * @param midSen
+	 * @param preIndex 当前词位置
+	 * @param postIndex 情感词位置
+	 * @return 正负
+	 */
+	public int isPositive(ArrayList<Word> midSen, int preIndex, int postIndex)
+	{
+		int isPositive = 1;
+		if(preIndex == -1)
+		{
+			for(int i = preIndex + 1; i < postIndex; i++)
+			{
+				//副词
+				if(midSen.get(i).getTag().equals("d"))
+				{
+					isPositive *= checkNegative(midSen.get(i).getSrcWord());
+				}
+				//形容词
+				else if(midSen.get(i).getTag().equals("a"))
+				{
+					isPositive *= checkAdjective(midSen.get(i).getSrcWord());
+				}
+			}
+		}
+		else
+		{
+			for(int i = preIndex; i < postIndex; i++)
+			{
+				if(midSen.get(i).getTag().equals("d"))
+				{
+					isPositive *= checkNegative(midSen.get(i).getSrcWord());
+				}
+				else if(midSen.get(i).getTag().equals("a"))
+				{
+					isPositive *= checkAdjective(midSen.get(i).getSrcWord());
+				}
+			}
+		}
+		return isPositive;
+	}
+
+	/**
+	 * 检查形容词是否为情感词
+	 * @param adjWord
+	 * @return 该情感词的正负
+	 */
+	public int checkAdjective(String adjWord)
+	{
+		if(sentiment_words.containsKey(adjWord))
+			return sentiment_words.get(adjWord);
+		else
+			return 0;
+	}
+	
+	/**
+	 * 检查名词是否为主题词
+	 * @param nounWord 
+	 * @return 该主题词的正负
+	 */
+	private int checkFeature(String nounWord)
+	{
+		if(topics.containsKey(nounWord))
+			return topics.get(nounWord);
+		else
+			return 0;
+	}
+	
+	/**
+	 * 检查是否为负面词
+	 * @param advWord
+	 * @return
+	 */
+	public int checkNegative(String advWord)
+	{
+		for(int i = 0; i < negations.size();i++)
+		{
+			if(negations.get(i).equals(advWord))
+			{
+				return -1;
+			}	
+		}
+		return 1;
+	}
+	
+	/**
+	 * 检查副词是否为情感词
+	 * @param verbWord
+	 * @return 该情感词的正负
+	 */
+	public int checkVerb(String verbWord)
+	{
+		if(sentiment_words.containsKey(verbWord))
+			return sentiment_words.get(verbWord);
+		else
+			return 0;
+	}
+
+	/**
+	 * 
+	 * @param cur
+	 * @param root
+	 * @param way
+	 * @return
+	 */
+	public String getValue(Tree cur,Tree root,String way)
+	{
+		
+		String [] com = way.split("%");
+		//System.out.println(way);
+		try{
+			for(int i = 0 ; i < com.length ; i++)
+			{
+				if(com[i].equals("$"))
+				{
+					//System.out.println(6191937);
+					cur = cur.parent(root);
+					//System.out.println(cur.value());
+				}
+				else if(com[i].contains("@"))
+				{
+					String[] temp = com[i].split("@");
+					List<Tree> ts = null;
+					if(temp[0].equals("s"))
+					{
+						ts = cur.siblings(root);
+					}
+					else if(temp[0].equals("c"))
+					{
+						ts = cur.getChildrenAsList();
+					}
+					if(temp[1].contains("="))
+					{
+						String[] temp2 = temp[1].split("=");
+						int at = Integer.parseInt(temp2[0]);
+						if(at>0)
+						{
+							if(ts.get(at-1).value().equals(temp2[1]))
+							{
+								cur = ts.get(at-1);
+							//	System.out.println(cur.value());
+							}
+						}
+						else if (at==0)
+						{
+							boolean found = false;
+							for(int wl = 0 ; wl < ts.size() ; wl++)
+							{
+								if(ts.get(wl).value().equals(temp2[1]))
+								{
+									cur = ts.get(wl);
+								//	System.out.println(cur.value());
+									found = true;
+									break;
+								}
+							}
+							if(!found)
+							{
+								return null;
+							}
+						}
+					}
+					else
+					{
+						int at = Integer.parseInt(temp[1]);
+						cur = ts.get(at-1);
+						//System.out.println(cur.value());
+					}
+				}
+				else if(com[i].contains("l")&&com[i].contains("#"))
+				{
+					if(cur.isLeaf())
+						return cur.value();
+					else
+						return null;
+				}
+				
+			}
+
+		}catch(Exception e)
+		{
+			return null;
+		}
+		return null;
+	}
+	
+	/**
+	 * 基于向量空间的句型结构的情感分析模型
+	 * @param review 已经切分好的句子文本块
+	 * @return 情感度数据列表
+	 */
+	public LinkedList<SentiResult>  windowAnalyze(String review)
+	{
+		orientation = 0;
+		topicPolarity = 0;
+		sentiment = 0;
+		negation = 1;
+		String topicw = "";
+		ArrayList<Word> subSentence = new ArrayList<Word>();
+		try 
+		{
+			//已做标注
+			byte nativeBytes[] = testICTCLAS30.ICTCLAS_ParagraphProcess(review.getBytes("GB2312"), 1);
+			String taggedReview = new String(nativeBytes, 0, nativeBytes.length, "GB2312");
+			//以空格形式分词
+			String[] arrTaggedReview = taggedReview.split("\\s");
+			//split by space
+			
+			for(int i = 0; i < arrTaggedReview.length - 1; i++)
+			{
+				if(arrTaggedReview[i].indexOf("/") != -1)
+				{
+					//分离词和标注
+					String srcWord = arrTaggedReview[i].substring(0, arrTaggedReview[i].indexOf("/"));
+					String tag = arrTaggedReview[i].substring(arrTaggedReview[i].indexOf("/") + 1,arrTaggedReview[i].indexOf("/") + 2);
+					Word word = new Word(srcWord, tag);
+					subSentence.add(word);
+								
+					//标注指示结尾或词的最后一项
+					if(tag.equals("w") || i == arrTaggedReview.length - 2) 
+					{
+						//递增的方式遍历
+						for(int j = 0; j < subSentence.size(); j++)
+						{
+							//we search for a noun, possibly the topic of the sentence
+							if(subSentence.get(j).getTag().equals("n"))
+							{
+								//确定是否为候选的主题词
+								int topicPolarity = checkFeature(subSentence.get(j).getSrcWord());
+								//if it is a candidate topic
+								topicw = subSentence.get(j).getSrcWord();
+								if(topicPolarity != 0)
+								{								
+									subSentence.get(j).setSTag("/topic");
+									//向前计算情感词与主题词的距离
+									int indexOfUpFirstModifier = upFirstModifierIndex(subSentence, j);
+									//向后计算情感词与主题词的距离
+									int indexOfDownModifier = downModifierIndex(subSentence, j);
+										
+									int up_Orientation = 0;
+									int down_Orientation = 0;
+									int up_Positive = 1;
+									int down_Positive = 1;
+									
+									//前后都有修饰词
+									if((indexOfUpFirstModifier != -1)&&(indexOfDownModifier != -1))
+									{										
+										int upDistance = j - indexOfUpFirstModifier;
+										int downDistance = indexOfDownModifier - j;
+										//后面的修饰词离主题词近一些
+										if(upDistance > downDistance)
+										{
+											subSentence.get(indexOfDownModifier).setSTag("/modifier");
+											if(subSentence.get(indexOfDownModifier).getTag().equals("a") || subSentence.get(indexOfDownModifier).getTag().equals("b"))
+											{
+												down_Orientation = checkAdjective(subSentence.get(indexOfDownModifier).getSrcWord());
+											}
+											if(subSentence.get(indexOfDownModifier).getTag().equals("v"))
+											{
+												down_Orientation = checkVerb(subSentence.get(indexOfDownModifier).getSrcWord());
+											}
+											down_Positive = isPositive(subSentence, j, indexOfDownModifier);
+											down_Orientation *= down_Positive;
+										}
+										//前面的修饰词离主题词近一些
+										else if (upDistance < downDistance)
+										{
+											subSentence.get(indexOfUpFirstModifier).setSTag("/modifier");
+											if(subSentence.get(indexOfUpFirstModifier).getTag().equals("a") || subSentence.get(indexOfUpFirstModifier).getTag().equals("b"))
+											{
+												up_Orientation = checkAdjective(subSentence.get(indexOfUpFirstModifier).getSrcWord());
+											}
+											if(subSentence.get(indexOfUpFirstModifier).getTag().equals("v"))
+											{
+												up_Orientation = checkVerb(subSentence.get(indexOfUpFirstModifier).getSrcWord());
+											}
+												
+											//需要进一步在前面的情感词和主题词之间找情感词
+											int indexOfUpSecondModifier = upSecondModifierIndex(subSentence, indexOfUpFirstModifier);
+											//做最近的情感词和主题词之间的否定判定
+											up_Positive = isPositive(subSentence, indexOfUpSecondModifier, indexOfUpFirstModifier);
+											up_Orientation *= up_Positive;
+										}
+										//前后的修饰词离主题词的距离相等，都做一下
+										else
+										{
+											subSentence.get(indexOfDownModifier).setSTag("/modifier");
+											subSentence.get(indexOfUpFirstModifier).setSTag("/modifier");
+											if(subSentence.get(indexOfDownModifier).getTag().equals("a")|| subSentence.get(indexOfDownModifier).getTag().equals("b"))
+											{
+												down_Orientation = checkAdjective(subSentence.get(indexOfDownModifier).getSrcWord());
+											}
+											if(subSentence.get(indexOfDownModifier).getTag().equals("v"))
+											{
+												down_Orientation = checkVerb(subSentence.get(indexOfDownModifier).getSrcWord());
+											}
+											down_Positive = isPositive(subSentence, j, indexOfDownModifier);
+											down_Orientation *= down_Positive;
+												
+											if(subSentence.get(indexOfUpFirstModifier).getTag().equals("a") || subSentence.get(indexOfUpFirstModifier).getTag().equals("b"))
+											{
+												up_Orientation = checkAdjective(subSentence.get(indexOfUpFirstModifier).getSrcWord());
+											}
+											if(subSentence.get(indexOfUpFirstModifier).getTag().equals("v"))
+											{
+												up_Orientation = checkVerb(subSentence.get(indexOfUpFirstModifier).getSrcWord());
+											}
+											
+											int indexOfUpSecondModifier = upSecondModifierIndex(subSentence, indexOfUpFirstModifier);
+											up_Positive = isPositive(subSentence, indexOfUpSecondModifier, indexOfUpFirstModifier);
+											up_Orientation *= up_Positive;
+										}										
+									}
+									//只有后面的修饰词
+									else if(indexOfUpFirstModifier == -1 && indexOfDownModifier != -1)
+									{
+										subSentence.get(indexOfDownModifier).setSTag("/modifier");
+										if(subSentence.get(indexOfDownModifier).getTag().equals("a") || subSentence.get(indexOfDownModifier).getTag().equals("b"))
+										{
+											down_Orientation = checkAdjective(subSentence.get(indexOfDownModifier).getSrcWord());
+										}
+										if(subSentence.get(indexOfDownModifier).getTag().equals("v"))
+										{
+											down_Orientation = checkVerb(subSentence.get(indexOfDownModifier).getSrcWord());
+										}
+										down_Positive = isPositive(subSentence, j, indexOfDownModifier);
+										down_Orientation *= down_Positive;										
+									}
+									//只有前面的修饰词
+									else if(indexOfDownModifier == -1 && indexOfUpFirstModifier != -1)
+									{
+										
+										subSentence.get(indexOfUpFirstModifier).setSTag("/modifier");
+										if(subSentence.get(indexOfUpFirstModifier).getTag().equals("a") || subSentence.get(indexOfUpFirstModifier).getTag().equals("b"))
+										{
+											up_Orientation = checkAdjective(subSentence.get(indexOfUpFirstModifier).getSrcWord());
+										}
+										if(subSentence.get(indexOfUpFirstModifier).getTag().equals("v"))
+										{
+											up_Orientation = checkVerb(subSentence.get(indexOfUpFirstModifier).getSrcWord());
+										}
+											
+										int indexOfUpSecondModifier = upSecondModifierIndex(subSentence, indexOfUpFirstModifier);
+										up_Positive = isPositive(subSentence, indexOfUpSecondModifier, indexOfUpFirstModifier);
+										up_Orientation *= up_Positive;
+									}
+										
+									orientation = up_Orientation + down_Orientation;
+									/**/
+									if(orientation != 0)
+									{
+										orientation*=topicPolarity;
+									}
+									else
+									{
+										continue;
+									}
+
+								}
+							}
+						}
+						subSentence.clear();
+					}
+				}
+			}			
+		}
+		catch (UnsupportedEncodingException e1) {
+				// TODO Auto-generated catch block
+				e1.printStackTrace();
+			}
+		LinkedList<SentiResult> ret = new LinkedList<SentiResult>();
+		if(orientation != 0)
+		{
+			SentiResult sr = new SentiResult(topicw,orientation);
+			ret.add(sr);	
+		}
+		return ret;
+	}
+
+	/**
+	 * 基于统计的情感分析模型
+	 * @param review 已经切分好的句子文本块
+	 * @return 情感度数据列表
+	 */
+	public LinkedList<SentiResult> simpleAnalyze(String review) {
+		// TODO Auto-generated method stub
+		LinkedList<SentiResult> r = new LinkedList<SentiResult>();
+		byte nativeBytes[];
+		try {
+			//分词
+			nativeBytes = testICTCLAS30.ICTCLAS_ParagraphProcess(review.getBytes("GB2312"), 0);
+			String taggedReview = new String(nativeBytes, 0, nativeBytes.length, "GB2312");
+			String[] sent = taggedReview.split(" ");
+			boolean foundT = false;
+			boolean foundS = false;
+			boolean foundV = false;
+			for(int i = 0 ;  i < sent.length ; i++)
+			{
+				//主题词
+				if(topics.containsKey(sent[i]))
+					foundT = true;
+				//二义词
+				else if(action_words.contains(sent[i]))
+				{
+					foundV = true;
+				}
+				//负面的情感词且不包含二义词
+				else if(sentiment_words.containsKey(sent[i])&&sentiment_words.get(sent[i])<0)
+				{	
+					if(!foundV)
+					{
+						foundS = true;
+					}
+				}
+				
+			}
+			if(foundT&&foundS)
+			{
+				r.add(new SentiResult(-9));
+			}
+		}
+		catch(Exception e)
+		{
+			
+		}
+
+		return r;
+	}
+}

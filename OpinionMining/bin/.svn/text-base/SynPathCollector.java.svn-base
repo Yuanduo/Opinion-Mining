@@ -1,0 +1,148 @@
+import java.io.BufferedReader;
+import java.io.FileReader;
+import java.io.IOException;
+import java.io.UnsupportedEncodingException;
+import java.sql.ResultSet;
+import java.sql.SQLException;
+import java.util.HashMap;
+import java.util.LinkedList;
+import sqloperation.Db;
+import ICTCLAS.kevin.zhang.ICTCLAS2010;
+
+/**
+ * 自适应的句法模板训练模块
+ * @author BUPT
+ * @version 1.0
+ */
+public class SynPathCollector {
+	private PathProcessor PR; //依赖关系树句法路径处理类实例
+	private LinkedList<String> patterns = new LinkedList<String>(); //句法模块集合
+	private HashMap<String,Integer> sentiment_words = new HashMap<String,Integer>(); //情感词集合
+	private HashMap<String,Integer> topics = new HashMap<String,Integer>(); //主题词集合
+	private ICTCLAS2010 testICTCLAS30; //分词模块实例
+	
+	public SynPathCollector()
+	{
+		//连接数据库
+		PR = new PathProcessor();
+		Db.connect("opinion");
+		ResultSet rs = Db.select("patterns", "pattern");
+		try {
+			//初始化句子模板集
+			while(rs.next())
+			{
+				patterns.add(rs.getString("pattern"));
+			}
+			//初始化情感词集
+			rs = Db.select("sentiment_words", "word","polarity");
+			while(rs.next())
+			{
+				sentiment_words.put(rs.getString("word"), rs.getInt("polarity"));
+			}
+			System.out.println("load senti over");
+			//初始化主题词集
+			rs = Db.select("topics", "word","polarity");
+			while(rs.next())
+			{
+				topics.put(rs.getString("word"),rs.getInt("polarity"));
+			}
+			System.out.println("load topics over");
+			//分词模块初始化
+			String argu = ".";
+			testICTCLAS30 = new ICTCLAS2010();
+			try {
+				if (testICTCLAS30.ICTCLAS_Init(argu.getBytes("GB2312")) == false)
+				{
+					System.out.println("分词模块  Init Fail!");
+				}
+				else
+					System.out.println("分词模块  Init Success!");
+				testICTCLAS30.ICTCLAS_ImportUserDict("zwuserdict.txt".getBytes("GB2312"));
+			} catch (UnsupportedEncodingException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			}
+		} catch (SQLException e1) {
+			// TODO Auto-generated catch block
+			e1.printStackTrace();
+		}
+	}
+	
+	/**
+	 *  自适应的句法模板训练
+	 * @param filename 待训练的数据文件
+	 * @throws UnsupportedEncodingException
+	 * @throws IOException
+	 */
+	public void Train(String filename) throws UnsupportedEncodingException, IOException
+	{
+		int newStart = patterns.size();
+		byte nativeBytes[];
+		String rev = "";
+		String input = filename;
+		FileReader fr;
+		fr = new FileReader(input);
+		BufferedReader br = new BufferedReader(fr);
+		while((rev = br.readLine())!=null)
+		{
+			if(rev.trim().equals(""))
+			{
+				continue;
+			}
+			//分句
+			rev = rev.replace("“", "\"");
+			rev = rev.replace("”", "\"");
+			rev = rev.replace(".", ",");
+			rev = rev.replace("，", ",");
+			rev = rev.replace(";", ",");
+			rev = rev.replace("!", ",");
+			rev = rev.replace("?", ",");
+			rev = rev.replace("。", ",");
+			rev = rev.replace("？", ",");
+			rev = rev.replace("；", ",");
+			rev = rev.replace("！", ",");
+			rev = rev.replace(" ",",");
+			String []Review = rev.split(",");
+			
+			for(int counter = 0 ; counter < Review.length ; counter++)
+			{
+				String review = Review[counter];
+				nativeBytes = testICTCLAS30.ICTCLAS_ParagraphProcess(review.getBytes("GB2312"), 0);
+				String taggedReview = new String(nativeBytes, 0, nativeBytes.length, "GB2312");
+				//分词
+				String[] sent = taggedReview.split(" ");
+				LinkedList<String> ts = new LinkedList<String>();
+				LinkedList<String> ss = new LinkedList<String>();
+				for(int i = 0 ; i < sent.length ; i++)
+				{
+					//更新主题词和情感词
+					if(topics.containsKey(sent[i]))
+						ts.add(sent[i]);
+					if(sentiment_words.containsKey(sent[i])&&sentiment_words.get(sent[i])<0)
+						ss.add(sent[i]);
+				}
+				for(int i = 0 ; i < ts.size() ; i++)
+				{
+					for(int j = 0 ; j < ss.size() ; j++)
+					{
+						//遍历，检查句法模板中是否包含配对的主题词和情感词
+						String tt = PR.getPathOfCertainWords(taggedReview, ts.get(i), ss.get(j));
+						//更新句子模板
+						if(!patterns.contains(tt))
+						{
+							patterns.add(tt);
+							System.out.println(tt);
+						}
+					}
+				}
+
+			}
+		}
+		//更新数据库模板table
+		for(int i = newStart ; i < patterns.size() ; i++)
+		{
+			Db.insert("patterns", patterns.get(i),-9);
+			System.out.println(i+patterns.get(i));
+		}
+	}
+}

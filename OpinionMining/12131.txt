@@ -1,0 +1,45 @@
+<content>华为/nz 电脑/n 除了/p 散热/vi 不行/a 其他/rzv 性能/n 还/d 是/vshi 不错/a 的/ude1</content>
+<sentiment>电脑 不行 -6</sentiment>
+<countSenti> -6
+<content>华为/nz 电脑/n 除了/p 散热/vi 不行/a 其他/rzv 性能/n 还/d 是/vshi 不错/a 的/ude1</content>
+<sentiment>电脑 还 1</sentiment>
+<countSenti> -5
+<content>华为/nz 电脑/n 除了/p 散热/vi 不行/a 其他/rzv 性能/n 还/d 是/vshi 不错/a 的/ude1</content>
+<sentiment>电脑 不错 1</sentiment>
+<countSenti> -4
+<content>华为/nz 电脑/n 除了/p 散热/vi 不行/a 其他/rzv 性能/n 还/d 是/vshi 不错/a 的/ude1</content>
+<sentiment>散热 不行 -6</sentiment>
+<countSenti> -10
+<content>华为/nz 电脑/n 除了/p 散热/vi 不行/a 其他/rzv 性能/n 还/d 是/vshi 不错/a 的/ude1</content>
+<sentiment>散热 还 1</sentiment>
+<countSenti> -9
+<content>华为/nz 电脑/n 除了/p 散热/vi 不行/a 其他/rzv 性能/n 还/d 是/vshi 不错/a 的/ude1</content>
+<sentiment>散热 不错 1</sentiment>
+<countSenti> -8
+<content>华为/nz 电脑/n 除了/p 散热/vi 不行/a 其他/rzv 性能/n 还/d 是/vshi 不错/a 的/ude1</content>
+<sentiment>性能 不行 -6</sentiment>
+<countSenti> -14
+<content>华为/nz 电脑/n 除了/p 散热/vi 不行/a 其他/rzv 性能/n 还/d 是/vshi 不错/a 的/ude1</content>
+<sentiment>性能 还 1</sentiment>
+<countSenti> -13
+<content>华为/nz 电脑/n 除了/p 散热/vi 不行/a 其他/rzv 性能/n 还/d 是/vshi 不错/a 的/ude1</content>
+<sentiment>性能 不错 1</sentiment>
+<countSenti> -12
+========================================================================
+Total count sentiment:  -12
+1.txt is negative.
+========================================================================
+#########################################################################
+Negative documents: 
+D:\新建文件夹\1.txt
+========================================================================
+Not negative documents: 
+========================================================================
+Total documents: 1
+Negative documents: 1
+Negative documents(TRUE): 0
+Negative documents(FALSE): 1
+Not negative documents: 0
+Not negative documents(TRUE): 0
+Not negative documents(FALSE): 0
+Time spent is 0

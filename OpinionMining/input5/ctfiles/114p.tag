@@ -1,0 +1,1 @@
+“/wyz 不/d 争论/v ”/wyy 思想/n 诞生/vi 于/p 改革/v 开放/v 的/ude1 事业/n 中/f ，/wd 具有/v 很/d 强/a 的/ude1 针对性/n ，/wd 但/c 它/rr 不/d 是/vshi 僵化/vi 的/ude1 ，/wd 如同/v 马克思主义/n 、/wn 毛泽东思想/n 以及/cc 邓小平理论/n 的/ude1 其他/rzv 内容/n 一样/uyy ，/wd 具有/v 指导/vn 实践/vn 的/ude1 方法论/n 意义/n ，/wd 其/rz 理论/n 基础/n 和/cc 核心/n 也/d 正/d 是/vshi 马克思主义/n 的/ude1 实践/vn 观点/n 。/wj 

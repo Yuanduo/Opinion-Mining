@@ -1,0 +1,1 @@
+高/a 钙/n 食物/n 能够/v 抵消/v 白葡萄酒/n 带来/v 的/ude1 部分/n 损害/v ：/wp 传统/n 上/f 以/p 奶酪/n 作为/v 甜/a 点/qt ，/wd 或者/c 在/p 喝酒/vi 同时/c 食用/v ，/wd 会/v 对/p 预防/v 牙齿/n 腐蚀/v 有/vyou 积极/a 作用/n ，/wd 因为/c 奶酪/n 含有/v 大量/m 钙/n 元素/n 。/wj 这/rzv 可以/v 中和/vi 酸性/n ，/wd 提升/v 唾液/n 修复/vn 牙齿/n 的/ude1 能力/n ，/wd 以/p 阻止/v 酸性/n 物质/n 侵蚀/vn 。/wj 

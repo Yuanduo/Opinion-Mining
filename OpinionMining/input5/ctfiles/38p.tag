@@ -1,0 +1,4 @@
+可口可乐/nz 60年/t 后/f 重返/v 缅甸/ns  美国/nsf 中止/v 对/p 缅/b 投资/vn 限制/vn   
+    美国/nsf 可口可乐/nz 公司/n 10日/t 宣布/v ，/wd 首批/n 可乐/nz 运/v 至/p 缅甸/ns 城市/n 仰光/ns ，/wd 60年/t 来/f 首/m 次/qv 直销/v 缅甸/ns 。/wj 
+　　可口可乐/nz 公司/n 总裁/n 穆赫塔尔/nrf ·/w 肯特/nsf 当天/t 作为/p “/wyz 美国/nsf —/wp 东南亚/nsf 国家/n 联盟/n 杰出/a 人士/n 团体/n ”/wyy 成员/n 访问/v 仰光/ns 。/wj “/wyz 在/p 每个/r 与/p 我们/rr 有/vyou 生意/n 往来/vi 的/ude1 国家/n 和/cc 城市/n ，/wd 我们/rr 的/ude1 员工/n 致力/v 于/p 创造/v 经济/n 价值/n ，/wd 构建/v 可/v 持续/vi 的/ude1 社区/n ，/wd ”/wyy 肯特/n 说/v ，/wd “/wyz 我们/rr 很/d 荣幸/a ，/wd 再次/d 有/vyou 机会/n 与/p 缅甸/ns 民众/n 一道/d ，/wd 共/d 创/vg 更/d 好/a 未来/t 。/wj ”/wyy 
+　　可口可乐/nz 1927年/t 首/m 次/qv 进入/v 缅甸/ns ，/wd 后/f 因/p 美国/nsf 限制/v 企业/n 对/p 缅甸/ns 投资/vn 而/cc 退出/v 。/wj 美国/nsf 政府/n 今年/t 早/a 些/q 时候/n 宣布/v 中止/v 对/p 缅甸/ns 的/ude1 投资/vn 限制/vn ，/wd 为/p 这/rzv 家/q 全球/n 最/d 大/a 软饮料/n 生产商/n “/wyz 进驻/v ”/wyy 这/rzv 一/m 东南亚/nsf 国家/n 铺平/v 道路/n 。/wj 

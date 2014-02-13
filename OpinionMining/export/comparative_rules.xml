@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="gb2312"?>
+
+<Rules>
+<birule>.*(比/p|较之/p|比/p 起/vf).*(/a|/d|/m|/x)</birule>
+<birule>.*(跟/p|与/p|同/p|和/cc).*(比/p)</birule>
+<zuirule>.*(/n|/r).*(/v).*(最/d).*(/a)</zuirule>
+<yiyangrule>.*(像/p|像/v|两/m|与|跟|同|和).*(一样/uyy)</yiyangrule>
+</Rules>

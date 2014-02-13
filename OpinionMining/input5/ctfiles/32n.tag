@@ -1,0 +1,11 @@
+皮蛋/n 被/pbei 评/v “/wyz 最/d 恶心/a 食物/n ”/wyy 引/v 网友/n 不满/an 
+按照/p 最新/a 报道/n ，/wd 美国/nsf 有线电视/n 新闻网/n (/wkz CNN/x )/wky 最近/t 选出/v 全球/n 最/d “/wyz 恶心/a ”/wyy 的/ude1 食物/n 。/wj 在/p 他们/rr 眼中/s ，/wd 多种/m 亚洲/ns 食物/n 都/d 是/vshi 恶心/a 的/ude1 ，/wd 其中/rz 认为/v 最/d 恶心/a 的/ude1 是/vshi 皮蛋/n 。/wj CNN/x 指出/v ，/wd 皮蛋/n 的/ude1 味道/n 吓人/a ，/wd 外/f 型/k 也/d 怪异/a ，/wd 像/v 是/vshi 魔鬼/n 生/v 的/ude1 蛋/n 。/wj 得知/v 消息/n 后/f ，/wd 不少/m 中国/ns 网友/n 觉得/v 结果/n 很/d 不/d 公正/a 。/wj 一/m 位/q 网友/n 在/p 新浪/nz 微/ag 博/ag 上/f 感叹/v ：/wp “/wyz 居然/d 榜首/n 是/vshi 皮蛋/n ！/wt 让/v 我/rr 情/n 何以/d 堪/v ！/wt 我/rr 是/vshi 最/d 爱/v 吃/v 皮蛋/n 的/ude1 ！/wt 我/rr 是/vshi 把/pba 皮蛋/n 当/p 水果/n 吃/v 的/ude1 ！/wt ”/wyy 
+
+　　与此同时/c ，/wd 有/vyou 网友/n 在/p 新浪/nz 微/ag 博/ag 上/f 发起/v “/wyz 你/rr 心目/n 中/f 西方/s 最/d 恶心/a 食物/n 是/vshi 什么/ry ？/ww ”/wyy 的/ude1 投票/vn 。/wj 截至/v 6月/t 30日/t 下午/t 16点/t 40分/t ，/wd 有/vyou 超过/v 1.6万/m 名/q 网友/n 参与/v 了/ule 投票/vi ，/wd 其中/rz 6935/m 名/q 网友/n 投/v 给/v 了/ule 臭/a 奶酪/n (/wkz 有/vyou 刺激性/n 气味/n )/wky ，/wd 甚至/c 有人/r 指出/v ，/wd 国外/s 臭/a 奶酪/n “/wyz 有/vyou 股/q 臭/a 脚丫子/n 味/ng ，/wd 让/v 人/n 无法/vd 忍受/v ”/wyy 。/wj 另外/c ，/wd 分别/d 有/vyou 31%/m 和/cc 20%/m 的/ude1 网友/n 投票/vi 给/p 半生/m 牛肉/n (/wkz 带/v 血/n )/wky 和/cc 法式/b 蜗牛/n 。/wj 
+
+　　此外/c ，/wd 网友/n 还/d 在/p 新浪/nz 微/ag 博/ag 上/f 发起/v “/wyz 您/rr 认为/v 中国/ns 最/d 恶心/a 的/ude1 食物/n 是/vshi 什么/ry ？/ww ”/wyy 的/ude1 投票/vn ，/wd 并/cc 列举/v 了/ule 皮蛋/n 、/wn 臭豆腐/n 、/wn 榴莲/n 酥/a 、/wn 烤/v 蚕蛹/n 等/udeng 多/m 个/q 选项/n 。/wj 截至/v 6月/t 30日/t 下午/t 16点/t 40分/t ，/wd 有/vyou 超过/v 1.4万/m 名/q 网友/n 参与/v 投票/vi (/wkz 多/m 选/v )/wky ，/wd 超过/v 7/m 成/q 的/ude1 网友/n 认为/v 老鼠/n 三/m 吱/o 儿/ng 最/d 恶心/a ，/wd 选择/v 各种/rz 动物/n 鞭/ng 和/cc 猫/n 肉/n 的/ude1 也/d 不在少数/vl ，/wd 均/d 超过/v 40%/m 。/wj 
+
+　　不少/m 网友/n 表示/v ，/wd 虽/c 没/d 吃/v 过/uguo “/wyz 老鼠/n 三/m 吱/o 儿/ng ”/wyy ，/wd 但/c 闻/v 听/v “/wyz 老鼠/n ”/wyy 两/m 字/n 便/d 感到/v 异常/d 反胃/vi 。/wj 一/m 位/q 名叫/v “/wyz 暗自/d 结疤/v ”/wyy 的/ude1 广东/ns 网友/n 发/v 微/ag 博/ag 解释/v 了/ule “/wyz 老鼠/n 三/m 吱/o 儿/ng ”/wyy 这种/r 食物/n ：/wp “/wyz 老鼠/n 三/m 吱/o 儿/ng 是/vshi 广东/ns 人/n 吃/v 的/ude1 ，/wd 就/d 是/vshi 还/d 没有/v 出生/vi 的/ude1 老鼠/n 胎儿/n 。/wj ”/wyy 
+
+　　投票/vi 结果/d 显示/v ，/wd 中国/ns 网友/n 所/usuo 认为/v 的/ude1 “/wyz 中国/ns 最/d 恶心/a 的/ude1 食物/n ”/wyy ，/wd 与/p “/wyz 美国/nsf CNN/x 选出/v 全球/n 最/d 恶心/a 的/ude1 食物/n ———/wp 皮蛋/n ”/wyy 这个/rz 结果/n 大相径庭/vl 。/wj 超过/v 1万/m 名/q 微/ag 博/ag 网友/n 中/f ，/wd 只有/c 3%/m 的/ude1 网友/n 认为/v “/wyz 皮蛋/n ”/wyy 是/vshi 最/d 恶心/a 食物/n 。/wj 
+

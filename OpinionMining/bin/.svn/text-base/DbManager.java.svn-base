@@ -1,0 +1,156 @@
+import java.sql.ResultSet;
+
+import sqloperation.Db;
+
+/**
+ * 数据库数据操作模块
+ * @author BUPT
+ * @version 1.0
+ */
+public class DbManager {
+	public DbManager()
+	{
+		Db.connect("opinion");
+	}
+	
+	/**
+	 * 插入主题词
+	 * @param word
+	 */
+	public void inserttTopic(String word)
+	{
+		Db.insert("topics", word, 1);
+	}
+	
+	/**
+	 * 删除主题词
+	 * @param word
+	 */
+	public void deleteTopic(String word)
+	{
+		Db.delete("topics","word", word);
+	}
+	
+	/**
+	 * 查询主题词
+	 * @return
+	 */
+	public ResultSet viewTopic()
+	{
+		ResultSet rs = Db.select("topics", "word");
+		return rs;
+	}
+	
+	/**
+	 * 插入情感词
+	 * @param word
+	 * @param polarity
+	 */
+	public void insertSentiment(String word, int polarity)
+	{
+		Db.insert("sentiment_words", word ,polarity);
+	}
+	
+	/**
+	 * 删除情感词
+	 * @param word
+	 */
+	public void deleteSentiment(String word)
+	{
+		Db.delete("sentiment_words", "word", word);
+	}
+	
+	/**
+	 * 查询情感词
+	 * @return
+	 */
+	public ResultSet viewSentiment()
+	{
+		ResultSet rs = Db.select("sentiment_words", "word", "polarity");
+		return rs;
+	}
+	
+	/**
+	 * 插入句子模板
+	 * @param pattern
+	 */
+	public void insertPattern(String pattern)
+	{
+		Db.insert("patterns", pattern);
+	}
+	
+	/**
+	 * 删除句子模板
+	 * @param pattern
+	 */
+	public void deletePattern(String pattern)
+	{
+		Db.delete("patterns", "pattern", pattern);
+	}
+	
+	/**
+	 * 查询句子模板
+	 * @return
+	 */
+	public ResultSet viewPattern()
+	{
+		ResultSet rs = Db.select("patterns", "pattern");
+		return rs;
+	}	
+	
+	/**
+	 * 插入否定词
+	 * @param word
+	 */
+	public void insertNegation(String word)
+	{
+		Db.insert("negation_words", word);
+	}
+	
+	/**
+	 * 删除否定词
+	 * @param word
+	 */
+	public void deleteNegation(String word)
+	{
+		Db.delete("negation_words", "word", word);
+	}
+	
+	/**
+	 * 查询否定词
+	 * @return
+	 */
+	public ResultSet viewNegation()
+	{
+		ResultSet rs = Db.select("negation_words", "word");
+		return rs;
+	}	
+	
+	/**
+	 * 插入二义性词
+	 * @param word
+	 */
+	public void insertAction(String word)
+	{
+		Db.insert("action_words", word);
+	}
+	
+	/**
+	 * 删除二义性词
+	 * @param word
+	 */
+	public void deleteAction(String word)
+	{
+		Db.delete("action_words", "word", word);
+	}
+	
+	/**
+	 * 查询二义性词
+	 * @return
+	 */
+	public ResultSet viewAction()
+	{
+		ResultSet rs = Db.select("action_words", "word");
+		return rs;
+	}
+}

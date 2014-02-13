@@ -1,0 +1,1 @@
+黄曲霉/n 素/dg 是/vshi 一/m 种/q 毒性/n 极/d 强/a 的/ude1 剧毒/n 物质/n ，/wd 经常/d 在/p 谷物/n 、/wn 豆类/n 、/wn 玉米/n ，/wd 花生/n 和/cc 一些/mq 干果/n 中/f 检测/v 到/v 它/rr ，/wd 而/cc 在/p 湿/a 热/a 地区/n 的/ude1 食品/n 和/cc 饲料/n 中/f 出现/v 黄曲霉/n 素/ag 的/ude1 几率/n 最高/a 。/wj 该/rz 毒素/n 对/p 人/n 及/cc 动物/n 肝脏/n 组织/n 有/vyou 破坏/vn 作用/n ，/wd 严重/a 时/ng ，/wd 可/c 导致/v 肝癌/n 甚至/d 死亡/vi 。/wj  

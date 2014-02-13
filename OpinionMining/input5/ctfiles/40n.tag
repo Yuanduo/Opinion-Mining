@@ -1,0 +1,6 @@
+韩国/nsf 洋葱/n 和/cc 白菜/n 价格/n 骤/d 跌/v  导致/v 非法/d 丢弃/v   
+洋葱/n 和/cc 白菜/n 是/vshi 全罗南/nr 道/v 区域/n 代表性/n 作物/n ，/wd 但/c 因/p 价格/n 骤/d 跌/v ，/wd 一些/mq 批发业/n 者/k 把/pba 仓储/vn 的/ude1 洋葱/n 和/cc 白菜/n ，/wd 通过/p 非法/b 途径/n 丢弃/v 掉/v ，/wd 这/rzv 着实/d 让/v 地方/n 政府/n 非常/d 头疼/a 。/wj 
+    务/dg 安/ag 郡/ng 25日/t 表示/v ，/wd 这些/rz 被/pbei 非法/d 丢弃/v 的/ude1 洋葱/n 和/cc 白菜/n ，/wd 都/d 是/vshi 存放/v 在/p 全/a 罗/b 南/b 道/n 区域/n 内/f 的/ude1 低温/n 仓库/n 内/f 的/ude1 。/wj 而/cc 大量/m 储存/vn 洋葱/n 和/cc 白菜/n 的/ude1 原因/n 是/vshi 一些/mq 批发业/n 者/k 分析/v 去年/t 冬天/t 气温/n 异常/an ，/wd 收获/v 不/d 佳/a ，/wd 今年/t 春天/t 价格/n 可能/v 会/v 暴涨/vi ，/wd 但/c 事与愿违/vl 。/wj 
+    近来/t ，/wd 随着/p 洋葱/n 和/cc 白菜/n 价格/n 的/ude1 骤/d 跌/v ，/wd 导致/v 仓储/vn 费/n 和/cc 搬运费/n 都/d 很/d 回收/v ，/wd 而且/c 也/d 失去/v 了/ule 商品/n 价值/n 。/wj 据悉/v ，/wd 1/m 吨/q 洋葱/n 或者/c 白菜/n 的/ude1 处理/vn 费用/n 高/ad 达/v 7-8万/m 韩元/q （/wkz 相当/d 于/p 5200-5900/m 日元/q ）/wky ，/wd 为了/p 消/v 减/v 该/rz 费用/n ，/wd 一些/mq 批发业/n 者/k 采取/v 了/ule 非法/d 丢弃/v ，/wd 这/rzv 也/d 导致/v 该类/r 事件/n 频/ag 发/v 。/wj 
+    务/dg 安/ag 郡/ng 4-5/m 月/n ，/wd 共/d 接到/v 7/m 件/q 非法/d 丢弃/v 案件/n ，/wd 其中/rz 1/m 件/q 已经/d 向/p 警察局/n 告发/v ，/wd 另外/c 6/m 件/q 都/d 做/v 了/ule 不同/a 程度/n 的/ude1 罚金/n 处理/vn 。/wj 务/dg 安/ag 郡/n 相关/vn 人员/n 表示/v “/wyz 为了/p 储存/v 今年/t 生产/v 的/ude1 农作物/n ，/wd 把/pba 此前/t 的/ude1 产品/n 处理/v 掉/v ，/wd 不/d 是/vshi 不/d 能/v 理解/v ，/wd 但/c 根据/p 环境/n 法/b 的/ude1 相关/vn 规定/n ，/wd 进行/vx 处罚/vn 也/d 是/vshi 没/v 办法/n 的/ude1 。/wj ”/wyy  
+ 

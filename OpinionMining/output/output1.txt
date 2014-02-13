@@ -1,0 +1,918 @@
+<content> 倒/d 是/vshi 很/d 希望/v 中共/n 与/p 越南/nsf 打/v 一/m 打/v</content>
+<sentiment>中共 希望 1</sentiment>
+<countSenti> 1
+<content> 但/c 中共/n 邪恶/a 本质/n 决定/v 这种/r 紧张/a 气氛/n 缓和/v 是/vshi 暂时/b 的/ude1 </content>
+<sentiment>中共 邪恶 -6</sentiment>
+<countSenti> -5
+<content> 但/c 中共/n 邪恶/a 本质/n 决定/v 这种/r 紧张/a 气氛/n 缓和/v 是/vshi 暂时/b 的/ude1 </content>
+<sentiment>中共 本质 1</sentiment>
+<countSenti> -4
+<content> 但/c 中共/n 邪恶/a 本质/n 决定/v 这种/r 紧张/a 气氛/n 缓和/v 是/vshi 暂时/b 的/ude1 </content>
+<sentiment>中共 决定 1</sentiment>
+<countSenti> -3
+<content> 但/c 中共/n 邪恶/a 本质/n 决定/v 这种/r 紧张/a 气氛/n 缓和/v 是/vshi 暂时/b 的/ude1 </content>
+<sentiment>中共 紧张 -6</sentiment>
+<countSenti> -9
+<content> 中共/n 的/ude1 日子/n 就/d 到/v 头/n 了/y</content>
+<sentiment>中共 头 1</sentiment>
+<countSenti> -8
+<content>没有/v 哪个/ry 国家/n 像/p 中共/n 军队/n 一样/uyy 腐败/a </content>
+<sentiment>国家 腐败 -12</sentiment>
+<countSenti> -20
+========================================================================
+Total count sentiment:  -20
+101n.txt is negative.
+========================================================================
+<content>中国共产党/n 比/p 外国/n 政党/n 更加/d 腐败/a 无能/a</content>
+<sentiment>中国共产党 无能 -6</sentiment>
+<countSenti> -6
+<content>他/rr 从来/d 不/d 关心/v 什么/ry 中华民族/n 的/ude1 利益/n </content>
+<sentiment>中华民族 关心 -8</sentiment>
+<countSenti> -14
+<content> 没有/v 什么/ry 是/vshi 中国共产党/n 不/d 能/v 破坏/v 和/cc 出卖/v 的/ude1</content>
+<sentiment>中国共产党 出卖 6</sentiment>
+<countSenti> -8
+<content>如果/c 民主/a 国家/n 能够/v 占领/v 大陆/n 并/cc 在/p 大陆/n 实行/v 民主/a 制度/n 自由/a 制度/n </content>
+<sentiment>国家 民主 1</sentiment>
+<countSenti> -7
+<content>如果/c 民主/a 国家/n 能够/v 占领/v 大陆/n 并/cc 在/p 大陆/n 实行/v 民主/a 制度/n 自由/a 制度/n </content>
+<sentiment>国家 民主 1</sentiment>
+<countSenti> -6
+<content>如果/c 民主/a 国家/n 能够/v 占领/v 大陆/n 并/cc 在/p 大陆/n 实行/v 民主/a 制度/n 自由/a 制度/n </content>
+<sentiment>国家 自由 1</sentiment>
+<countSenti> -5
+<content>与/p 中国/ns 相比/vi 美国/nsf 才/d 是/vshi 真正/d 伟大/a 的/ude1 国家/n </content>
+<sentiment>中国 真正 1</sentiment>
+<countSenti> -4
+<content>与/p 中国/ns 相比/vi 美国/nsf 才/d 是/vshi 真正/d 伟大/a 的/ude1 国家/n </content>
+<sentiment>中国 伟大 1</sentiment>
+<countSenti> -3
+<content>与/p 中国/ns 相比/vi 美国/nsf 才/d 是/vshi 真正/d 伟大/a 的/ude1 国家/n </content>
+<sentiment>国家 真正 1</sentiment>
+<countSenti> -2
+<content>与/p 中国/ns 相比/vi 美国/nsf 才/d 是/vshi 真正/d 伟大/a 的/ude1 国家/n </content>
+<sentiment>国家 伟大 1</sentiment>
+<countSenti> -1
+<content> 尊重/v 人权/n </content>
+<sentiment>人权 尊重 1</sentiment>
+<countSenti> 0
+<content>只要/c 能/v 得到/v 人权/n 民主/an 自由/an 和/cc 平等/a </content>
+<sentiment>人权 民主 1</sentiment>
+<countSenti> 1
+<content>只要/c 能/v 得到/v 人权/n 民主/an 自由/an 和/cc 平等/a </content>
+<sentiment>人权 自由 1</sentiment>
+<countSenti> 2
+<content>只要/c 能/v 得到/v 人权/n 民主/an 自由/an 和/cc 平等/a </content>
+<sentiment>人权 平等 1</sentiment>
+<countSenti> 3
+<content> 加入/v 哪个/ry 民主/a 国家/n 也/d 比/p 共/d 匪/dg 统治/v 强/a 的/ude1 多/a 得/ude3 多/a</content>
+<sentiment>国家 强 1</sentiment>
+<countSenti> 4
+<content>民主/a 国家/n 不/d 会/v 主动/ad 去/vf 消灭/v 人/n 的/ude1 灵魂/n </content>
+<sentiment>国家 民主 1</sentiment>
+<countSenti> 5
+<content>民主/a 国家/n 不/d 会/v 主动/ad 去/vf 消灭/v 人/n 的/ude1 灵魂/n </content>
+<sentiment>国家 会 -8</sentiment>
+<countSenti> -3
+<content>民主/a 国家/n 不/d 会/v 主动/ad 去/vf 消灭/v 人/n 的/ude1 灵魂/n </content>
+<sentiment>国家 主动 -8</sentiment>
+<countSenti> -11
+<content> 与/p 之/rz 相反/vi 的/ude1 是/vshi 共/d 产/v 国家/n 却/d 会/v 主动/ad 去/vf 消灭/v 人/n 的/ude1 灵魂/n </content>
+<sentiment>国家 会 -8</sentiment>
+<countSenti> -19
+<content> 与/p 之/rz 相反/vi 的/ude1 是/vshi 共/d 产/v 国家/n 却/d 会/v 主动/ad 去/vf 消灭/v 人/n 的/ude1 灵魂/n </content>
+<sentiment>国家 主动 -8</sentiment>
+<countSenti> -27
+<content>民主/a 国家/n 是/vshi 上帝/n 的/ude1 正义/n 势力/n </content>
+<sentiment>国家 民主 1</sentiment>
+<countSenti> -26
+<content>民主/a 国家/n 是/vshi 上帝/n 的/ude1 正义/n 势力/n </content>
+<sentiment>国家 正义 1</sentiment>
+<countSenti> -25
+<content> 而/cc 共/d 产/v 国家/n 是/vshi 魔鬼/a 的/ude1 邪恶/a 势力/n</content>
+<sentiment>国家 邪恶 -6</sentiment>
+<countSenti> -31
+========================================================================
+Total count sentiment:  -31
+102n.txt is negative.
+========================================================================
+<content> 哪个/ry 国家/n 解决/v 所谓/v 南海/ns 问题/n 都/d 不会/v 像/p 中共/n 一样/uyy 复杂/a</content>
+<sentiment>国家 复杂 -24</sentiment>
+<countSenti> -24
+<content>老毛/n 子/ng 打/v 小/a 格/n </content>
+<sentiment>老毛 小 1</sentiment>
+<countSenti> -23
+<content>今天/t 的/ude1 中共/n 谁/ry 也/d 不/d 敢/v 得罪/v </content>
+<sentiment>中共 敢 -8</sentiment>
+<countSenti> -31
+<content> 也/d 绑架/a 了/ule 整个/b 中国/ns 和/cc 中华民族/n</content>
+<sentiment>中国 绑架 -6</sentiment>
+<countSenti> -37
+<content> 也/d 绑架/a 了/ule 整个/b 中国/ns 和/cc 中华民族/n</content>
+<sentiment>中华民族 绑架 -6</sentiment>
+<countSenti> -43
+<content> 对付/v 国内/s 百姓/n 比/p 对付/v 国家/n 的/ude1 安全/an 和/cc 利益/n 更/d 要/v 紧/a</content>
+<sentiment>null 紧 -6</sentiment>
+<countSenti> -49
+<content> 你/rr 还/d 能/v 指望/v 它/rr 维护/v 国家/n 和/cc 民族/n 的/ude1 利益/n</content>
+<sentiment>国家 指望 1</sentiment>
+<countSenti> -48
+<content> 你/rr 还/d 能/v 指望/v 它/rr 维护/v 国家/n 和/cc 民族/n 的/ude1 利益/n</content>
+<sentiment>国家 维护 1</sentiment>
+<countSenti> -47
+========================================================================
+Total count sentiment:  -47
+103n.txt is negative.
+========================================================================
+<content>中国/ns 的/ude1 政府/n 效率/n 低下/a </content>
+<sentiment>中国 低下 -6</sentiment>
+<countSenti> -6
+<content>中国/ns 的/ude1 政府/n 效率/n 低下/a </content>
+<sentiment>政府 低下 -6</sentiment>
+<countSenti> -12
+========================================================================
+Total count sentiment:  -12
+105n.txt is negative.
+========================================================================
+<content>共产党/n 龌龊/a 至极/vi </content>
+<sentiment>共产党 龌龊 -6</sentiment>
+<countSenti> -6
+<content> 比/p 美国/nsf 政府/n 还/d 差/a </content>
+<sentiment>共产党 自由 6</sentiment>
+<countSenti> 0
+<content>中共/n 邪/a 党/n 窃/vg 国/n 62年/t 杀害/v 了/ule 至少/d 8千万/m 中国/ns 人/n </content>
+<sentiment>中共 邪 -6</sentiment>
+<countSenti> -6
+<content>中共/n 邪/a 党/n 窃/vg 国/n 62年/t 杀害/v 了/ule 至少/d 8千万/m 中国/ns 人/n </content>
+<sentiment>中共 窃 -6</sentiment>
+<countSenti> -12
+<content>中共/n 邪/a 党/n 窃/vg 国/n 62年/t 杀害/v 了/ule 至少/d 8千万/m 中国/ns 人/n </content>
+<sentiment>中国 邪 -6</sentiment>
+<countSenti> -18
+<content>中共/n 邪/a 党/n 窃/vg 国/n 62年/t 杀害/v 了/ule 至少/d 8千万/m 中国/ns 人/n </content>
+<sentiment>中国 窃 -6</sentiment>
+<countSenti> -24
+========================================================================
+Total count sentiment:  -24
+106n.txt is negative.
+========================================================================
+<content> 作者/n 花/v 大量/m 篇幅/n 论证/vn 中共/n 用/p 经济/n 增长/v 带来/v 财源/n 穷/a 兵/n 黩武/v 、/wn 搞/v 军事/n 大跃进/nz </content>
+<sentiment>中共 花 1</sentiment>
+<countSenti> 1
+<content> 作者/n 花/v 大量/m 篇幅/n 论证/vn 中共/n 用/p 经济/n 增长/v 带来/v 财源/n 穷/a 兵/n 黩武/v 、/wn 搞/v 军事/n 大跃进/nz </content>
+<sentiment>中共 大量 1</sentiment>
+<countSenti> 2
+<content> 作者/n 花/v 大量/m 篇幅/n 论证/vn 中共/n 用/p 经济/n 增长/v 带来/v 财源/n 穷/a 兵/n 黩武/v 、/wn 搞/v 军事/n 大跃进/nz </content>
+<sentiment>中共 用 1</sentiment>
+<countSenti> 3
+<content> 作者/n 花/v 大量/m 篇幅/n 论证/vn 中共/n 用/p 经济/n 增长/v 带来/v 财源/n 穷/a 兵/n 黩武/v 、/wn 搞/v 军事/n 大跃进/nz </content>
+<sentiment>中共 经济 1</sentiment>
+<countSenti> 4
+<content> 作者/n 花/v 大量/m 篇幅/n 论证/vn 中共/n 用/p 经济/n 增长/v 带来/v 财源/n 穷/a 兵/n 黩武/v 、/wn 搞/v 军事/n 大跃进/nz </content>
+<sentiment>中共 增长 1</sentiment>
+<countSenti> 5
+<content> 作者/n 花/v 大量/m 篇幅/n 论证/vn 中共/n 用/p 经济/n 增长/v 带来/v 财源/n 穷/a 兵/n 黩武/v 、/wn 搞/v 军事/n 大跃进/nz </content>
+<sentiment>中共 穷 -6</sentiment>
+<countSenti> -1
+<content>"/n 中共/n 对/p 美国/nsf 和/cc 全世界/n 都/d 构成/v 威胁/v</content>
+<sentiment>中共 对 1</sentiment>
+<countSenti> 0
+<content>"/n 中共/n 对/p 美国/nsf 和/cc 全世界/n 都/d 构成/v 威胁/v</content>
+<sentiment>中共 威胁 -6</sentiment>
+<countSenti> -6
+<content>"/n 章/q 家/n 敦/ag 说/v 该书/r 提出/v 了/ule 一个/mq 华府/n 官员/n 们/k 长期/d 不/d 愿/v 面对/v 的/ude1 现实/n ：/wp "/n 我/r</content>
+<sentiment>官员 敦 1</sentiment>
+<countSenti> -5
+<content>"/n 章/q 家/n 敦/ag 说/v 该书/r 提出/v 了/ule 一个/mq 华府/n 官员/n 们/k 长期/d 不/d 愿/v 面对/v 的/ude1 现实/n ：/wp "/n 我/r</content>
+<sentiment>官员 说 1</sentiment>
+<countSenti> -4
+<content>"/n 章/q 家/n 敦/ag 说/v 该书/r 提出/v 了/ule 一个/mq 华府/n 官员/n 们/k 长期/d 不/d 愿/v 面对/v 的/ude1 现实/n ：/wp "/n 我/r</content>
+<sentiment>官员 愿 -8</sentiment>
+<countSenti> -12
+<content>"/n 章/q 家/n 敦/ag 说/v 该书/r 提出/v 了/ule 一个/mq 华府/n 官员/n 们/k 长期/d 不/d 愿/v 面对/v 的/ude1 现实/n ：/wp "/n 我/r</content>
+<sentiment>官员 现实 -8</sentiment>
+<countSenti> -20
+<content> 我们/rr 看到/v 的/ude1 是/vshi 对/p 中国/ns 日益/d 增长/v 的/ude1 忧虑/vn </content>
+<sentiment>中国 对 1</sentiment>
+<countSenti> -19
+<content> 我们/rr 看到/v 的/ude1 是/vshi 对/p 中国/ns 日益/d 增长/v 的/ude1 忧虑/vn </content>
+<sentiment>中国 增长 1</sentiment>
+<countSenti> -18
+<content> 我们/rr 看到/v 的/ude1 是/vshi 对/p 中国/ns 日益/d 增长/v 的/ude1 忧虑/vn </content>
+<sentiment>中国 忧虑 -6</sentiment>
+<countSenti> -24
+<content>"/n 章/q 家/n 敦/ag 认为/v 磨刀霍霍/vl 的/ude1 中共/n 将军/n 们/k </content>
+<sentiment>中共 敦 1</sentiment>
+<countSenti> -23
+<content> 他/rr 还/d 指出/v 一个/mq 虚弱/a 的/ude1 中国/ns 甚至/d 比/p 强大/a 的/ude1 中国/ns 更/d 具/vg 威胁/v 性/ng</content>
+<sentiment>中国 威胁 -6</sentiment>
+<countSenti> -29
+<content>李凤智/nr 说/v ：/wp "/n 中国/ns 在/p 海外/s 的/ude1 渗透/vn 不仅/c 是/vshi 国家/n 与/cc 国家/n 之间/f 的/ude1 </content>
+<sentiment>中国 说 1</sentiment>
+<countSenti> -28
+<content>李凤智/nr 说/v ：/wp "/n 中国/ns 在/p 海外/s 的/ude1 渗透/vn 不仅/c 是/vshi 国家/n 与/cc 国家/n 之间/f 的/ude1 </content>
+<sentiment>国家 说 1</sentiment>
+<countSenti> -27
+<content>李凤智/nr 说/v ：/wp "/n 中国/ns 在/p 海外/s 的/ude1 渗透/vn 不仅/c 是/vshi 国家/n 与/cc 国家/n 之间/f 的/ude1 </content>
+<sentiment>国家 说 1</sentiment>
+<countSenti> -26
+<content> 从/p 中国/ns 的/ude1 环境/n 污染/vn 型/k 经济/n 发展/vn 模式/n 到/v 阶级/n 弦/n 紧/d 绷/v 的/ude1 共产党/n 神权/n 政治/n 和/cc 吃</content>
+<sentiment>中国 经济 1</sentiment>
+<countSenti> -25
+<content> 从/p 中国/ns 的/ude1 环境/n 污染/vn 型/k 经济/n 发展/vn 模式/n 到/v 阶级/n 弦/n 紧/d 绷/v 的/ude1 共产党/n 神权/n 政治/n 和/cc 吃</content>
+<sentiment>中国 紧 -6</sentiment>
+<countSenti> -31
+<content> 从/p 中国/ns 的/ude1 环境/n 污染/vn 型/k 经济/n 发展/vn 模式/n 到/v 阶级/n 弦/n 紧/d 绷/v 的/ude1 共产党/n 神权/n 政治/n 和/cc 吃</content>
+<sentiment>中国 绷 -6</sentiment>
+<countSenti> -37
+<content> 从/p 中国/ns 的/ude1 环境/n 污染/vn 型/k 经济/n 发展/vn 模式/n 到/v 阶级/n 弦/n 紧/d 绷/v 的/ude1 共产党/n 神权/n 政治/n 和/cc 吃</content>
+<sentiment>共产党 经济 1</sentiment>
+<countSenti> -36
+<content> 从/p 中国/ns 的/ude1 环境/n 污染/vn 型/k 经济/n 发展/vn 模式/n 到/v 阶级/n 弦/n 紧/d 绷/v 的/ude1 共产党/n 神权/n 政治/n 和/cc 吃</content>
+<sentiment>共产党 紧 -6</sentiment>
+<countSenti> -42
+<content> 从/p 中国/ns 的/ude1 环境/n 污染/vn 型/k 经济/n 发展/vn 模式/n 到/v 阶级/n 弦/n 紧/d 绷/v 的/ude1 共产党/n 神权/n 政治/n 和/cc 吃</content>
+<sentiment>共产党 绷 -6</sentiment>
+<countSenti> -48
+<content> 他们/rr 面临/v 着/uzhe ‘/wyz 中国/ns 灭亡/vi 中国/ns ’/wyy 的/ude1 极端/n 危险/an 之中/f</content>
+<sentiment>中国 灭亡 -6</sentiment>
+<countSenti> -54
+<content> 他们/rr 面临/v 着/uzhe ‘/wyz 中国/ns 灭亡/vi 中国/ns ’/wyy 的/ude1 极端/n 危险/an 之中/f</content>
+<sentiment>中国 危险 -6</sentiment>
+<countSenti> -60
+<content> 他们/rr 面临/v 着/uzhe ‘/wyz 中国/ns 灭亡/vi 中国/ns ’/wyy 的/ude1 极端/n 危险/an 之中/f</content>
+<sentiment>中国 灭亡 -6</sentiment>
+<countSenti> -66
+<content> 他们/rr 面临/v 着/uzhe ‘/wyz 中国/ns 灭亡/vi 中国/ns ’/wyy 的/ude1 极端/n 危险/an 之中/f</content>
+<sentiment>中国 危险 -6</sentiment>
+<countSenti> -72
+<content>"/n 作者/n 进而/c 引用/v 《/wkz 失去/v 新/a 中国/ns 》/wky 的/ude1 作者/n 伊/b 森/ag ．/w 古特曼/nrf （/wkz EhtanGutmann/x</content>
+<sentiment>中国 失去 -6</sentiment>
+<countSenti> -78
+<content>"/n 作者/n 进而/c 引用/v 《/wkz 失去/v 新/a 中国/ns 》/wky 的/ude1 作者/n 伊/b 森/ag ．/w 古特曼/nrf （/wkz EhtanGutmann/x</content>
+<sentiment>中国 新 1</sentiment>
+<countSenti> -77
+<content>"/n 作者/n 进而/c 引用/v 《/wkz 失去/v 新/a 中国/ns 》/wky 的/ude1 作者/n 伊/b 森/ag ．/w 古特曼/nrf （/wkz EhtanGutmann/x</content>
+<sentiment>中国 森 -6</sentiment>
+<countSenti> -83
+<content> 即/d 平均/a 约/d 有/vyou 50万/m 到/v 1百万/m 法轮功/n 学员/n 被/pbei 监禁/v </content>
+<sentiment>法轮功 约 -4</sentiment>
+<countSenti> -87
+========================================================================
+Total count sentiment:  -87
+107n.txt is negative.
+========================================================================
+<content>共产党/n 是/vshi 宇宙/n 中/f 的/ude1 最/d 邪恶/a 物质/n </content>
+<sentiment>共产党 邪恶 -11</sentiment>
+<countSenti> -11
+<content> 共产党/n 的/ude1 邪恶/a 旗子/n 要/v 用/p 人民/n 鲜血/n 染/v 红/a </content>
+<sentiment>共产党 邪恶 -6</sentiment>
+<countSenti> -17
+<content> 共产党/n 的/ude1 邪恶/a 旗子/n 要/v 用/p 人民/n 鲜血/n 染/v 红/a </content>
+<sentiment>共产党 用 1</sentiment>
+<countSenti> -16
+<content> 共产党/n 的/ude1 邪恶/a 旗子/n 要/v 用/p 人民/n 鲜血/n 染/v 红/a </content>
+<sentiment>共产党 红 1</sentiment>
+<countSenti> -15
+<content> 这/rzv 代表/n 了/ule 共产党/n 嗜/vg 血/n 成/v 性/ng ,/wf 大/a 镰刀/n 是/vshi 死神/n 的/ude1 标志/n </content>
+<sentiment>共产党 成 1</sentiment>
+<countSenti> -14
+<content> 代表/v 了/ule 共产党/n 要/v 灭绝/vi 人民/n 的/ude1 疯狂/ad 杀戮/v 动机/n ,/wf 铁锤/n 代表/n 其/rz 邪/a 党/n 强烈/a 的/ude1 野蛮/</content>
+<sentiment>共产党 疯狂 -6</sentiment>
+<countSenti> -20
+<content> 代表/v 了/ule 共产党/n 要/v 灭绝/vi 人民/n 的/ude1 疯狂/ad 杀戮/v 动机/n ,/wf 铁锤/n 代表/n 其/rz 邪/a 党/n 强烈/a 的/ude1 野蛮/</content>
+<sentiment>共产党 邪 -6</sentiment>
+<countSenti> -26
+<content> 代表/v 了/ule 共产党/n 要/v 灭绝/vi 人民/n 的/ude1 疯狂/ad 杀戮/v 动机/n ,/wf 铁锤/n 代表/n 其/rz 邪/a 党/n 强烈/a 的/ude1 野蛮/</content>
+<sentiment>共产党 强烈 1</sentiment>
+<countSenti> -25
+<content> 代表/v 了/ule 共产党/n 要/v 灭绝/vi 人民/n 的/ude1 疯狂/ad 杀戮/v 动机/n ,/wf 铁锤/n 代表/n 其/rz 邪/a 党/n 强烈/a 的/ude1 野蛮/</content>
+<sentiment>共产党 野蛮 -6</sentiment>
+<countSenti> -31
+<content>这/rzv 就/d 是/vshi 共产党/n 的/ude1 "/n 三/m 呆/v 婊/n "/n</content>
+<sentiment>共产党 呆 -6</sentiment>
+<countSenti> -37
+========================================================================
+Total count sentiment:  -37
+108n.txt is negative.
+========================================================================
+<content>"/n 创新/vn 厂商/n "/n （/wkz innovationfirms/x ）/wky 最/d 容易/ad 受到/v 中国/ns 经济/n 间谍/n 攻击/v</content>
+<sentiment>中国 容易 7</sentiment>
+<countSenti> 7
+<content> 中国/ns 的/ude1 经济/n 情报/n 活动/vn 与/cc 军事/n 战斗/vi 相似/a </content>
+<sentiment>中国 经济 1</sentiment>
+<countSenti> 8
+<content> 中国/ns 的/ude1 经济/n 情报/n 活动/vn 与/cc 军事/n 战斗/vi 相似/a </content>
+<sentiment>中国 战斗 1</sentiment>
+<countSenti> 9
+<content>中国/ns 庞大/a 的/ude1 情报/n 机构/n 与/p 中国/ns 学术/n 机构/n 及/cc 工业界/n 携手/vd 窃取/v 世界/n 各地/rzs 非/b 中国/ns 公司/n 工业</content>
+<sentiment>中国 非 -6</sentiment>
+<countSenti> 3
+<content>中国/ns 庞大/a 的/ude1 情报/n 机构/n 与/p 中国/ns 学术/n 机构/n 及/cc 工业界/n 携手/vd 窃取/v 世界/n 各地/rzs 非/b 中国/ns 公司/n 工业</content>
+<sentiment>中国 非 -6</sentiment>
+<countSenti> -3
+<content>中国/ns 庞大/a 的/ude1 情报/n 机构/n 与/p 中国/ns 学术/n 机构/n 及/cc 工业界/n 携手/vd 窃取/v 世界/n 各地/rzs 非/b 中国/ns 公司/n 工业</content>
+<sentiment>中国 非 -6</sentiment>
+<countSenti> -9
+<content> 这/rzv 是/vshi 世界/n 上/f 最/d 邪恶/a 的/ude1 组织/n </content>
+<sentiment>中国 邪恶 -11</sentiment>
+<countSenti> -20
+========================================================================
+Total count sentiment:  -20
+109n.txt is negative.
+========================================================================
+<content> 怀念/v 毛泽东/n 的/ude1 人/n 主要/d 是/vshi 对/p 现实/n 不满/a</content>
+<sentiment>毛泽东 怀念 1</sentiment>
+<countSenti> 1
+<content> 怀念/v 毛泽东/n 的/ude1 人/n 主要/d 是/vshi 对/p 现实/n 不满/a</content>
+<sentiment>毛泽东 主要 1</sentiment>
+<countSenti> 2
+<content> 怀念/v 毛泽东/n 的/ude1 人/n 主要/d 是/vshi 对/p 现实/n 不满/a</content>
+<sentiment>毛泽东 对 1</sentiment>
+<countSenti> 3
+<content> 怀念/v 毛泽东/n 的/ude1 人/n 主要/d 是/vshi 对/p 现实/n 不满/a</content>
+<sentiment>毛泽东 现实 1</sentiment>
+<countSenti> 4
+<content> 怀念/v 毛泽东/n 的/ude1 人/n 主要/d 是/vshi 对/p 现实/n 不满/a</content>
+<sentiment>毛泽东 不满 -6</sentiment>
+<countSenti> -2
+<content>毛泽东/n 就/d 是/vshi 历史/n 上/f 最/d 大/a 的/ude1 贪官/n </content>
+<sentiment>毛泽东 腐败 -11</sentiment>
+<countSenti> -13
+<content>在/p 这样/rzv 腐败/a 的/ude1 政府/n 管制/vn 下/f 生存/vi </content>
+<sentiment>政府 腐败 -6</sentiment>
+<countSenti> -19
+========================================================================
+Total count sentiment:  -19
+110n.txt is negative.
+========================================================================
+<content>日本/nsf 侵略者/n 其实/d 还/d 给/p 共产党/n 、/wn 毛主席/n 送来/v 了/ule 更/d 有/vyou 价值/n 的/ude1 软/a 资本/n</content>
+<sentiment>侵略者 其实 -4</sentiment>
+<countSenti> -4
+<content>日本/nsf 侵略者/n 其实/d 还/d 给/p 共产党/n 、/wn 毛主席/n 送来/v 了/ule 更/d 有/vyou 价值/n 的/ude1 软/a 资本/n</content>
+<sentiment>侵略者 软 -4</sentiment>
+<countSenti> -8
+<content>日本/nsf 侵略者/n 其实/d 还/d 给/p 共产党/n 、/wn 毛主席/n 送来/v 了/ule 更/d 有/vyou 价值/n 的/ude1 软/a 资本/n</content>
+<sentiment>共产党 其实 1</sentiment>
+<countSenti> -7
+<content>日本/nsf 侵略者/n 其实/d 还/d 给/p 共产党/n 、/wn 毛主席/n 送来/v 了/ule 更/d 有/vyou 价值/n 的/ude1 软/a 资本/n</content>
+<sentiment>共产党 软 1</sentiment>
+<countSenti> -6
+<content>日本/nsf 侵略者/n 其实/d 还/d 给/p 共产党/n 、/wn 毛主席/n 送来/v 了/ule 更/d 有/vyou 价值/n 的/ude1 软/a 资本/n</content>
+<sentiment>毛主席 其实 1</sentiment>
+<countSenti> -5
+<content>日本/nsf 侵略者/n 其实/d 还/d 给/p 共产党/n 、/wn 毛主席/n 送来/v 了/ule 更/d 有/vyou 价值/n 的/ude1 软/a 资本/n</content>
+<sentiment>毛主席 软 1</sentiment>
+<countSenti> -4
+<content>这/rzv 是/vshi 毛主席/n 从/p 日本/nsf 侵华/vn 行动/vn 中/f 得到/v 的/ude1 最/d 实在/a 的/ude1 好处/n</content>
+<sentiment>毛主席 实在 7</sentiment>
+<countSenti> 3
+========================================================================
+Total count sentiment:  3
+111n.txt isn't negative.
+========================================================================
+<content> 因为/c 中共/n 邪/a 党/n 的/ude1 门面/n 已/d 被/pbei 撕破/v </content>
+<sentiment>中共 邪 -6</sentiment>
+<countSenti> -6
+<content> 我/rr 本/d 现在/t 吃/v 的/ude1 中共/n 给/p 我们/rr 造/v 的/ude1 毒/n 食品/n </content>
+<sentiment>中共 毒 -6</sentiment>
+<countSenti> -12
+<content> 中共/n 灭亡/vi 了/y </content>
+<sentiment>中共 灭亡 -6</sentiment>
+<countSenti> -18
+<content> 中共/n 罪大恶极/vl 最/d 可恶/a </content>
+<sentiment>中华民族 可恶 -11</sentiment>
+<countSenti> -29
+========================================================================
+Total count sentiment:  -29
+112n.txt is negative.
+========================================================================
+<content>武力/n 不/d 是/vshi 为了/p 和/cc 中共/n 直接/ad 对抗/v 定/v 输赢/n </content>
+<sentiment>中共 定 1</sentiment>
+<countSenti> 1
+<content> 其/rz 任务/n 也/d 和/cc 其他/rzv 的/ude1 宣传/vn 手段/n 一样/uyy 间接/a 斗争/vn </content>
+<sentiment>null 定 4</sentiment>
+<countSenti> 5
+<content> 在/p 中国/ns 大陆/n 的/ude1 民主/a 力量/n 拥有/v 让/v 敌人/n 惧怕/v 的/ude1 实际/a 实力/n 以前/f </content>
+<sentiment>中国 民主 1</sentiment>
+<countSenti> 6
+<content> 在/p 中国/ns 大陆/n 的/ude1 民主/a 力量/n 拥有/v 让/v 敌人/n 惧怕/v 的/ude1 实际/a 实力/n 以前/f </content>
+<sentiment>中国 惧怕 -6</sentiment>
+<countSenti> 0
+<content> 在/p 中国/ns 大陆/n 的/ude1 民主/a 力量/n 拥有/v 让/v 敌人/n 惧怕/v 的/ude1 实际/a 实力/n 以前/f </content>
+<sentiment>中国 实际 1</sentiment>
+<countSenti> 1
+<content>至于/p 推翻/v 中共/n 之类/rz 的/ude1 话/n 先/d 不必要/a 说/v </content>
+<sentiment>中共 说 1</sentiment>
+<countSenti> 2
+<content> 民主/an 阵营/n 在/p 说/v 推翻/v 中共/n 以前/f </content>
+<sentiment>中共 民主 -8</sentiment>
+<countSenti> -6
+<content> 民主/an 阵营/n 在/p 说/v 推翻/v 中共/n 以前/f </content>
+<sentiment>中共 说 -8</sentiment>
+<countSenti> -14
+========================================================================
+Total count sentiment:  -14
+113n.txt is negative.
+========================================================================
+<content>中国/ns 人民/n 养/v 了/ule 世界/n 上/f 最/d 庞大/a 、/wn 最/d 恶毒/a 恶/a 仆/ng </content>
+<sentiment>中共 恶毒 -11</sentiment>
+<countSenti> -11
+<content> 那么/rz 中共/n 也/d 会/v 因为/c 吃/v 财政/n 饭/n 的/ude1 人员/n 过于/d 庞大/a 而/cc 崩溃/vi </content>
+<sentiment>中共 会 1</sentiment>
+<countSenti> -10
+<content> 那么/rz 中共/n 也/d 会/v 因为/c 吃/v 财政/n 饭/n 的/ude1 人员/n 过于/d 庞大/a 而/cc 崩溃/vi </content>
+<sentiment>中共 崩溃 -6</sentiment>
+<countSenti> -16
+========================================================================
+Total count sentiment:  -16
+114n.txt is negative.
+========================================================================
+<content> 他们/rr 面临/v 着/uzhe 和/cc 80/m 后/f 一样/uyy 的/ude1 高/a 房价/n </content>
+<sentiment>政府 高 2</sentiment>
+<countSenti> 2
+<content> 过去/t 被/pbei 共产党/n 杀/a </content>
+<sentiment>共产党 杀 -6</sentiment>
+<countSenti> -4
+========================================================================
+Total count sentiment:  -4
+115n.txt is negative.
+========================================================================
+<content>美国/nsf 现在/t 可以/v 从/p 危机/n 重重/z 的/ude1 中共/n 那里/rzs 得到/v 比/p 以前/f 更/d 多/a 的/ude1 妥协/vn 和/cc 利益/n </content>
+<sentiment>中共 硬 2</sentiment>
+<countSenti> 2
+<content> 所以/c 美国/nsf 绝对/d 不/d 会/v 希望/v 中国/ns 现在/t 的/ude1 民主/a 事业/n 太/d 蓬勃/a </content>
+<sentiment>中国 会 -8</sentiment>
+<countSenti> -6
+<content> 所以/c 美国/nsf 绝对/d 不/d 会/v 希望/v 中国/ns 现在/t 的/ude1 民主/a 事业/n 太/d 蓬勃/a </content>
+<sentiment>中国 希望 -8</sentiment>
+<countSenti> -14
+<content> 所以/c 美国/nsf 绝对/d 不/d 会/v 希望/v 中国/ns 现在/t 的/ude1 民主/a 事业/n 太/d 蓬勃/a </content>
+<sentiment>中国 民主 1</sentiment>
+<countSenti> -13
+<content> 所以/c 美国/nsf 绝对/d 不/d 会/v 希望/v 中国/ns 现在/t 的/ude1 民主/a 事业/n 太/d 蓬勃/a </content>
+<sentiment>中国 蓬勃 1</sentiment>
+<countSenti> -12
+========================================================================
+Total count sentiment:  -12
+117n.txt is negative.
+========================================================================
+<content>中共/n 邪/a 党/n 只/d 能/v 给/p 中国/ns 人/n 带来/v 无限/b 的/ude1 痛苦/an </content>
+<sentiment>中共 邪 -6</sentiment>
+<countSenti> -6
+<content>中共/n 邪/a 党/n 只/d 能/v 给/p 中国/ns 人/n 带来/v 无限/b 的/ude1 痛苦/an </content>
+<sentiment>中国 邪 -6</sentiment>
+<countSenti> -12
+<content>大/a 法师/n 父/ng 不/d 忍心/v 那么/rz 多/a 不/d 明白/a 大法/n 真相/n 的/ude1 中国/ns 人/n 被/pbei 淘汰/v 啊/y</content>
+<sentiment>大法 明白 4</sentiment>
+<countSenti> -8
+<content>大/a 法师/n 父/ng 不/d 忍心/v 那么/rz 多/a 不/d 明白/a 大法/n 真相/n 的/ude1 中国/ns 人/n 被/pbei 淘汰/v 啊/y</content>
+<sentiment>大法 淘汰 3</sentiment>
+<countSenti> -5
+<content>大/a 法师/n 父/ng 不/d 忍心/v 那么/rz 多/a 不/d 明白/a 大法/n 真相/n 的/ude1 中国/ns 人/n 被/pbei 淘汰/v 啊/y</content>
+<sentiment>中国 明白 -8</sentiment>
+<countSenti> -13
+<content>大/a 法师/n 父/ng 不/d 忍心/v 那么/rz 多/a 不/d 明白/a 大法/n 真相/n 的/ude1 中国/ns 人/n 被/pbei 淘汰/v 啊/y</content>
+<sentiment>中国 淘汰 -6</sentiment>
+<countSenti> -19
+<content>也/d 请/v 所有/b 受苦/vi 受难/vi 的/ude1 可贵/a 的/ude1 中国/ns 人/n 不要/d 再/d 去/vf 自/rr 伤/v 自/p 残/a 自焚/a 了/y </content>
+<sentiment>中国 可贵 -8</sentiment>
+<countSenti> -27
+<content>也/d 请/v 所有/b 受苦/vi 受难/vi 的/ude1 可贵/a 的/ude1 中国/ns 人/n 不要/d 再/d 去/vf 自/rr 伤/v 自/p 残/a 自焚/a 了/y </content>
+<sentiment>中国 残 6</sentiment>
+<countSenti> -21
+<content>也/d 请/v 所有/b 受苦/vi 受难/vi 的/ude1 可贵/a 的/ude1 中国/ns 人/n 不要/d 再/d 去/vf 自/rr 伤/v 自/p 残/a 自焚/a 了/y </content>
+<sentiment>中国 自焚 -6</sentiment>
+<countSenti> -27
+========================================================================
+Total count sentiment:  -27
+118n.txt is negative.
+========================================================================
+<content>在/p 遇到/v 冤情/n 时/ng 和/cc 利益/n 冲突/vn 时/ng 直到/v 最后/f 跟/p 中共/n 公开/ad 对抗/v 时/ng 有/vyou 组织/n </content>
+<sentiment>中共 公开 1</sentiment>
+<countSenti> 1
+<content>世界/n 上/f 没有/v 一个/mq 组织/n 比/p 共产党/n 更/d 会/v 使用/v 愚民/n 政策/n </content>
+<sentiment>null 团结 -8</sentiment>
+<countSenti> -7
+<content> 没有/v 一个/mq 政府/n 比/p 中共/n 更/d 限制/v 百姓/n 的/ude1 自由/an </content>
+<sentiment>null 团结 -8</sentiment>
+<countSenti> -15
+========================================================================
+Total count sentiment:  -15
+119n.txt is negative.
+========================================================================
+<content> 难道/d 中国/ns 人/n 的/ude1 命/n 就/d 那么/rz 贱/a 骂/v</content>
+<sentiment>中国 贱 -6</sentiment>
+<countSenti> -6
+<content> 难道/d 中国/ns 人/n 的/ude1 命/n 就/d 那么/rz 贱/a 骂/v</content>
+<sentiment>中国 骂 -6</sentiment>
+<countSenti> -12
+========================================================================
+Total count sentiment:  -12
+120n.txt is negative.
+========================================================================
+<content> 没有/v 一个/mq 政府/n 像/p 中国/ns 一样/uyy 坑害/v 自己/rr 的/ude1 子民/nr2 </content>
+<sentiment>政府 坑害 -12</sentiment>
+<countSenti> -12
+========================================================================
+Total count sentiment:  -12
+121n.txt is negative.
+========================================================================
+<content>中共/n 土改/vi 杀人/a 最/d 多/a </content>
+<sentiment>中共 反 -11</sentiment>
+<countSenti> -11
+<content>文革/n 中/f 死/v 人/n 很/d 多/a </content>
+<sentiment>文革 死 3</sentiment>
+<countSenti> -8
+========================================================================
+Total count sentiment:  -8
+122n.txt is negative.
+========================================================================
+<content>共产主义/n 给/p 人类/n 带来/v 的/ude1 灾难/n 和/cc 法西斯/n 主义/n 一样/uyy</content>
+<sentiment>共产主义 null -6</sentiment>
+<countSenti> -6
+<content> 共产主义/n 似乎/d 总/d 要/v 略/d 好/a 一些/mq</content>
+<sentiment>共产主义 略 1</sentiment>
+<countSenti> -5
+<content> 共产主义/n 似乎/d 总/d 要/v 略/d 好/a 一些/mq</content>
+<sentiment>共产主义 好 1</sentiment>
+<countSenti> -4
+<content>认为/v 法西斯/n 主义/n 比/p 共产主义/n 更/d 凶残/a 恶劣/a 者/k 有/vyou 一/m 条/q 重要/a 的/ude1 事实/n 根据/p </content>
+<sentiment>法西斯 全 -4</sentiment>
+<countSenti> -8
+<content> 不同/a 的/ude1 国家/n 的/ude1 态度/n 也/d 不尽/d 一致/a</content>
+<sentiment>国家 一致 -8</sentiment>
+<countSenti> -16
+<content> 意大利/nsf 卷入/v 二战/n 就/d 并非/v 完全/ad 出于/v 主动/a </content>
+<sentiment>二战 完全 4</sentiment>
+<countSenti> -12
+<content> 意大利/nsf 卷入/v 二战/n 就/d 并非/v 完全/ad 出于/v 主动/a </content>
+<sentiment>二战 主动 4</sentiment>
+<countSenti> -8
+========================================================================
+Total count sentiment:  -8
+123n.txt is negative.
+========================================================================
+<content>对/p 共产主义/n 和/cc 法西斯/n 主义/n 加以/vx 比较/vn </content>
+<sentiment>共产主义 对 1</sentiment>
+<countSenti> 1
+<content>法西斯/n 国家/n 和/cc 共/d 产/v 国家/n 也/d 有/vyou 从/p 内部/f 脱胎换骨/vl 和平/n 演变/vi 的/ude1 能力/n </content>
+<sentiment>国家 和平 1</sentiment>
+<countSenti> 2
+<content>法西斯/n 国家/n 和/cc 共/d 产/v 国家/n 也/d 有/vyou 从/p 内部/f 脱胎换骨/vl 和平/n 演变/vi 的/ude1 能力/n </content>
+<sentiment>国家 和平 1</sentiment>
+<countSenti> 3
+<content> 其/rz 过程/n 甚至/c 比/p 共/d 产/v 国家/n 的/ude1 转型/vn 还/d 来/vf 得/ude3 更/d 平稳/a</content>
+<sentiment>国家 平稳 1</sentiment>
+<countSenti> 4
+<content> 因为/p 法西斯/n 主义/n 对/p 传统/n 的/ude1 破坏/vn 不/d 像/v 共产主义/n 那样/rzv 彻底/a</content>
+<sentiment>共产主义 对 -8</sentiment>
+<countSenti> -4
+<content> 因为/p 法西斯/n 主义/n 对/p 传统/n 的/ude1 破坏/vn 不/d 像/v 共产主义/n 那样/rzv 彻底/a</content>
+<sentiment>共产主义 传统 -8</sentiment>
+<countSenti> -12
+<content> 因为/p 法西斯/n 主义/n 对/p 传统/n 的/ude1 破坏/vn 不/d 像/v 共产主义/n 那样/rzv 彻底/a</content>
+<sentiment>共产主义 彻底 -8</sentiment>
+<countSenti> -20
+<content> 所以/c 前/f 法西斯/n 国家/n 在/p 经济/n 改革/vn 方面/n 至少/d 不/d 像/v "/n 把/pba 鱼汤/n 变/v 成鱼/n "/n 那/rzv 般/uyy 困难/a</content>
+<sentiment>国家 经济 -8</sentiment>
+<countSenti> -28
+<content> 所以/c 前/f 法西斯/n 国家/n 在/p 经济/n 改革/vn 方面/n 至少/d 不/d 像/v "/n 把/pba 鱼汤/n 变/v 成鱼/n "/n 那/rzv 般/uyy 困难/a</content>
+<sentiment>国家 困难 -6</sentiment>
+<countSenti> -34
+========================================================================
+Total count sentiment:  -34
+124n.txt is negative.
+========================================================================
+<content> 共产党/n 却/d 好像/v 夺权/vi 是/vshi 为了/p 杀人/a</content>
+<sentiment>共产党 杀人 -6</sentiment>
+<countSenti> -6
+<content>共产党/n 在/p 夺权/vi 之后/f 杀/a 的/ude1 人/n </content>
+<sentiment>共产党 杀 -6</sentiment>
+<countSenti> -12
+<content> 这/rzv 是/vshi 一个/mq 最/d 不/d 寻常/a 、/wn 也/d 最/d 为/v 恶劣/a 的/ude1 事实/n</content>
+<sentiment>共产党 恶劣 17</sentiment>
+<countSenti> 5
+========================================================================
+Total count sentiment:  5
+125n.txt isn't negative.
+========================================================================
+<content>法西斯/n 主义/n 比/p 共产主义/n 更/d 短命/a </content>
+<sentiment>法西斯 应 -4</sentiment>
+<countSenti> -4
+<content> 在/p 很/d 大/a 程度/n 上/f 应/v 是/vshi 希特勒/nrf 发动/v 战争/n 的/ude1 结果/n</content>
+<sentiment>战争 上 -4</sentiment>
+<countSenti> -8
+<content> 在/p 很/d 大/a 程度/n 上/f 应/v 是/vshi 希特勒/nrf 发动/v 战争/n 的/ude1 结果/n</content>
+<sentiment>战争 应 -4</sentiment>
+<countSenti> -12
+========================================================================
+Total count sentiment:  -12
+126n.txt is negative.
+========================================================================
+<content>共产党/n 将/d 迫害/a 理解/v 为/p 所谓/v 的/ude1 革命/vn 、/wn 解放/vn </content>
+<sentiment>共产党 所谓 6</sentiment>
+<countSenti> 6
+<content>共产党/n 将/d 迫害/a 理解/v 为/p 所谓/v 的/ude1 革命/vn 、/wn 解放/vn </content>
+<sentiment>共产党 革命 1</sentiment>
+<countSenti> 7
+<content> 共产党/n 的/ude1 "/n 解放/vn "/n 和/cc 纳粹/n 的/ude1 征服/vn 其实/d 没什么/vl 两/m 样/q</content>
+<sentiment>共产党 其实 -8</sentiment>
+<countSenti> -1
+========================================================================
+Total count sentiment:  -1
+127n.txt is negative.
+========================================================================
+<content>共产主义/n 和/cc 法西斯/n 主义/n 一样/uyy </content>
+<sentiment>共产主义 null -6</sentiment>
+<countSenti> -6
+<content>共产主义/n 不/d 是/vshi 只/d 有/vyou 爱/v 没有/d 恨/v </content>
+<sentiment>共产主义 爱 6</sentiment>
+<countSenti> 0
+<content>共产主义/n 不/d 是/vshi 只/d 有/vyou 爱/v 没有/d 恨/v </content>
+<sentiment>共产主义 恨 6</sentiment>
+<countSenti> 6
+<content>因为/p 法西斯/n 主义/n 和/cc 共产主义/n 一样/uyy </content>
+<sentiment>法西斯 恨 -6</sentiment>
+<countSenti> 0
+<content>共产党/n 和/cc 法西斯/n 党/n 同样/d 是/vshi 最/d 紧密/a 的/ude1 政治/n 组织/n </content>
+<sentiment>共产党 紧密 7</sentiment>
+<countSenti> 7
+<content> 恨/v 比/p 爱/v 更/d 为/v 根本/a </content>
+<sentiment>法西斯 不言而喻 -4</sentiment>
+<countSenti> 3
+========================================================================
+Total count sentiment:  3
+128n.txt isn't negative.
+========================================================================
+<content> 在/p 放弃/v 了/ule 共产主义/n 旗号/n 的/ude1 同时/n 又/d 举起/v 了/ule 极端/n 民族主义/n 、/wn 法西斯/n 主义/n 的/ude1 大/a 旗/n</content>
+<sentiment>共产主义 放弃 -6</sentiment>
+<countSenti> -6
+<content> 共产党/n 的/ude1 专制/n 毕竟/d 已/d 不复存在/vl </content>
+<sentiment>共产党 专制 -6</sentiment>
+<countSenti> -12
+<content> 不/d 是/vshi 共产党/n 专制/n 瓦解/v </content>
+<sentiment>共产党 专制 6</sentiment>
+<countSenti> -6
+========================================================================
+Total count sentiment:  -6
+130n.txt is negative.
+========================================================================
+<content>中共/n 和/cc 列宁/nrf 一样/uyy </content>
+<sentiment>中共 革命 2</sentiment>
+<countSenti> 2
+<content> 把/pba 中国/ns 再次/d 推/v 入/v 战争/n 灾难/n</content>
+<sentiment>中国 推 1</sentiment>
+<countSenti> 3
+<content> 把/pba 中国/ns 再次/d 推/v 入/v 战争/n 灾难/n</content>
+<sentiment>战争 推 -4</sentiment>
+<countSenti> -1
+<content>中共/n 不同/a 于/p 历史/n 上/f 的/ude1 其他/rzv 任何/rz 团体/n </content>
+<sentiment>中共 上 1</sentiment>
+<countSenti> 0
+<content> 将/p 中共/n 的/ude1 政策/n 和/cc 策略/n 披/v 上/vf 理论/n 的/ude1 外衣/n 加以/vx 实施/vn </content>
+<sentiment>中共 上 1</sentiment>
+<countSenti> 1
+========================================================================
+Total count sentiment:  1
+131n.txt isn't negative.
+========================================================================
+<content> 就/d 了/ule 这个/rz 庞大/a 的/ude1 官员/n 系统/n </content>
+<sentiment>官员 系统 1</sentiment>
+<countSenti> 1
+<content> 而/cc 这个/rz 庞大/a 的/ude1 官员/n 系统/n 是/vshi 一/m 群/q 世界/n 上/f 最/d 腐败/a 的/ude1 官员/n </content>
+<sentiment>老百姓 腐败 -11</sentiment>
+<countSenti> -10
+========================================================================
+Total count sentiment:  -10
+133n.txt is negative.
+========================================================================
+<content>江泽民/n 与/p 中共/n 一直/d 向/p 人民/n 隐瞒/v 其/rz 血腥/z 的/ude1 发家史/n 一样/uyy </content>
+<sentiment>江泽民 隐瞒 -12</sentiment>
+<countSenti> -12
+<content> 也/d 一直/d 向/p 中共/n 和/cc 人民/n 掩盖/a 他/rr 自己/rr 的/ude1 汉奸/a 历史/n</content>
+<sentiment>中共 汉奸 -6</sentiment>
+<countSenti> -18
+<content>中共/n 在/p 长期/b 暴政/n 和/cc 高压/n 统治/vn 过程/n 中/f </content>
+<sentiment>中共 高压 -6</sentiment>
+<countSenti> -24
+<content> 用/p 暴力/n 、/wn 谎言/a 和/cc 封锁/a 资讯/n 练就/v 了/ule 世界/n 上/f 最/d 强大/a 、/wn 最/d 邪恶/a 的/ude1 国家/n 恐怖主义/n </content>
+<sentiment>国家 强大 7</sentiment>
+<countSenti> -17
+========================================================================
+Total count sentiment:  -17
+135n.txt is negative.
+========================================================================
+<content>共产党/n 和/cc 他们/rr 豢养/v 的/ude1 恶/a 奴/ng 草菅人命/vl 在/p 中国/ns 早/tg 就/d 不/d 是/vshi 新闻/n 了/y</content>
+<sentiment>共产党 恶 -6</sentiment>
+<countSenti> -6
+<content>共产党/n 和/cc 他们/rr 豢养/v 的/ude1 恶/a 奴/ng 草菅人命/vl 在/p 中国/ns 早/tg 就/d 不/d 是/vshi 新闻/n 了/y</content>
+<sentiment>共产党 早 -8</sentiment>
+<countSenti> -14
+<content>共产党/n 和/cc 他们/rr 豢养/v 的/ude1 恶/a 奴/ng 草菅人命/vl 在/p 中国/ns 早/tg 就/d 不/d 是/vshi 新闻/n 了/y</content>
+<sentiment>中国 恶 -6</sentiment>
+<countSenti> -20
+<content>共产党/n 和/cc 他们/rr 豢养/v 的/ude1 恶/a 奴/ng 草菅人命/vl 在/p 中国/ns 早/tg 就/d 不/d 是/vshi 新闻/n 了/y</content>
+<sentiment>中国 早 -8</sentiment>
+<countSenti> -28
+========================================================================
+Total count sentiment:  -28
+136n.txt is negative.
+========================================================================
+<content>被/pbei 共产党/n 长期/d 压迫/v 的/ude1 团体/n 出于/v 害怕/v 和/cc 自我/rr 保护/v </content>
+<sentiment>共产党 害怕 -6</sentiment>
+<countSenti> -6
+<content> 时常/d 表现/v 得/ude3 比/p 共产党/n 还要/d 激进/a</content>
+<sentiment>共产党 激进 -6</sentiment>
+<countSenti> -12
+<content> 但/c 中共/n 却/d 以/p "/n 革命/vn "/n 的/ude1 名义/n 毁/v 得/ude3 理直气壮/al</content>
+<sentiment>中共 革命 1</sentiment>
+<countSenti> -11
+<content> 但/c 中共/n 却/d 以/p "/n 革命/vn "/n 的/ude1 名义/n 毁/v 得/ude3 理直气壮/al</content>
+<sentiment>中共 理直气壮 1</sentiment>
+<countSenti> -10
+<content> 中共/n 的/ude1 毁坏/vn 要/v 比/p 入侵/v 者/k 更/d 广泛/a 、/wn 更/d 持久/a 、/wn 更/d 彻底/a</content>
+<sentiment>中共 彻底 1</sentiment>
+<countSenti> -9
+========================================================================
+Total count sentiment:  -9
+138n.txt is negative.
+========================================================================
+<content> 还/d 像/v 中共/n 一样/uyy 用/v 诋毁/v 和/cc 谩骂/v 的/ude1 形式/n </content>
+<sentiment>null 用 4</sentiment>
+<countSenti> 4
+<content> 从/p 人/n 心中/s 根除/v 人们/n 认为/v 最/d 神圣/a 和/cc 最/d 美好/a 的/ude1 东西/n</content>
+<sentiment>中共 神圣 9</sentiment>
+<countSenti> 13
+========================================================================
+Total count sentiment:  13
+139n.txt isn't negative.
+========================================================================
+<content>"/n 党/n 文化/n "/n 确实/ad 为/v 中共/n 打江山/vl 、/wn 坐/v 江山/nr 立下/v 了/ule 汗马功劳/nl </content>
+<sentiment>中共 确实 1</sentiment>
+<countSenti> 1
+<content> 与/p 军队/n 、/wn 监狱/n 、/wn 警察/n 一样/uyy 同/p 属/v 暴力/n 机器/n </content>
+<sentiment>中共 null 1</sentiment>
+<countSenti> 2
+<content>当今/t 许多/m 中国/ns 人/n 已经/d 对/p 传统/n 文化/n 的/ude1 精髓/n 一无所知/vl </content>
+<sentiment>中国 对 1</sentiment>
+<countSenti> 3
+<content>当今/t 许多/m 中国/ns 人/n 已经/d 对/p 传统/n 文化/n 的/ude1 精髓/n 一无所知/vl </content>
+<sentiment>中国 传统 1</sentiment>
+<countSenti> 4
+<content>当今/t 许多/m 中国/ns 人/n 已经/d 对/p 传统/n 文化/n 的/ude1 精髓/n 一无所知/vl </content>
+<sentiment>中国 一无所知 -6</sentiment>
+<countSenti> -2
+<content> 甚至/d 把/pba 50/m 多/m 年/qt 的/ude1 "/n 党/n 文化/n "/n 等同/vi 于/p 中国/ns 5000年/t 的/ude1 传统/n 文化/n </content>
+<sentiment>中国 传统 1</sentiment>
+<countSenti> -1
+<content> 这/rzv 是/vshi 中国/ns 人/n 的/ude1 悲哀/an</content>
+<sentiment>中国 悲哀 -6</sentiment>
+<countSenti> -7
+========================================================================
+Total count sentiment:  -7
+140n.txt is negative.
+========================================================================
+<content> 中共/n 维系/v 统治/vn 最/d 必要/a 的/ude1 手段/n 之一/rz 就/d 是/vshi 杀人/a</content>
+<sentiment>中共 必要 7</sentiment>
+<countSenti> 7
+<content> 中共/n 不但/c 要/v 杀人/a 杀/a 得/ude3 尸/ng 横/dg 遍野/vi 、/wn 血流/n 成/v 河/n </content>
+<sentiment>中共 杀人 -6</sentiment>
+<countSenti> 1
+<content> 中共/n 不但/c 要/v 杀人/a 杀/a 得/ude3 尸/ng 横/dg 遍野/vi 、/wn 血流/n 成/v 河/n </content>
+<sentiment>中共 杀 -6</sentiment>
+<countSenti> -5
+<content> 中共/n 不但/c 要/v 杀人/a 杀/a 得/ude3 尸/ng 横/dg 遍野/vi 、/wn 血流/n 成/v 河/n </content>
+<sentiment>中共 横 -6</sentiment>
+<countSenti> -11
+<content> 中共/n 不但/c 要/v 杀人/a 杀/a 得/ude3 尸/ng 横/dg 遍野/vi 、/wn 血流/n 成/v 河/n </content>
+<sentiment>中共 成 1</sentiment>
+<countSenti> -10
+<content> 从而/c 使/v 中共/n 的/ude1 统治/vn 可以/v 凭/p 藉/vg 残酷/a 镇压/a 得以/v 维系/v</content>
+<sentiment>中共 残酷 -6</sentiment>
+<countSenti> -16
+<content> 从而/c 使/v 中共/n 的/ude1 统治/vn 可以/v 凭/p 藉/vg 残酷/a 镇压/a 得以/v 维系/v</content>
+<sentiment>中共 镇压 -6</sentiment>
+<countSenti> -22
+========================================================================
+Total count sentiment:  -22
+142n.txt is negative.
+========================================================================
+<content> 掩藏/v 在/p "/n 偶然/a "/n 后面/f 的/ude1 周期性/n 杀人/a 对/p 中共/n 来说/uls 又/d 是/vshi 一/m 种/q 必然/n </content>
+<sentiment>中共 杀人 -6</sentiment>
+<countSenti> -6
+<content> 掩藏/v 在/p "/n 偶然/a "/n 后面/f 的/ude1 周期性/n 杀人/a 对/p 中共/n 来说/uls 又/d 是/vshi 一/m 种/q 必然/n </content>
+<sentiment>中共 对 1</sentiment>
+<countSenti> -5
+<content> 人们/n 就/d 会/v 产生/v 中共/n 已经/d 改良/v 的/ude1 错觉/n </content>
+<sentiment>中共 会 1</sentiment>
+<countSenti> -4
+<content> 人们/n 就/d 会/v 产生/v 中共/n 已经/d 改良/v 的/ude1 错觉/n </content>
+<sentiment>中共 改良 1</sentiment>
+<countSenti> -3
+<content> 甚至/d 像/v 那些/rz 八九民运/n 的/ude1 理想/n 青年/n 一样/uyy 扑/v 上去/vf 要/v 民主/an</content>
+<sentiment>中共 理想 -8</sentiment>
+<countSenti> -11
+<content> 也/d 可以/v 警示/vn 刚刚/d 成长/vi 起来/vf 的/ude1 年轻人/n ?/ww ?/ww 谁/ry 跟/v 共产党/n 作对/vi </content>
+<sentiment>共产党 刚刚 1</sentiment>
+<countSenti> -10
+<content> 谁/ry 想/v 挑战/vn 中共/n 的/ude1 绝对/a 领导/n </content>
+<sentiment>中共 想 1</sentiment>
+<countSenti> -9
+========================================================================
+Total count sentiment:  -9
+144n.txt is negative.
+========================================================================
+<content>共产主义/n 革命/vn 就/d 是/vshi 同/p 传统/n 的/ude1 所有制/n 关系/n 实行/v 最/d 彻底/a 的/ude1 决裂/vi ,/wf 毫不/d 奇怪/v </content>
+<sentiment>共产主义 彻底 7</sentiment>
+<countSenti> 7
+<content> 它/rr 在/p 自己/rr 的/ude1 发展/vn 进程/n 中/f 要/v 同/p 传统/n 的/ude1 观念/n 实行/v 最/d 彻底/a 的/ude1 决裂/vi</content>
+<sentiment>共产主义 彻底 7</sentiment>
+<countSenti> 14
+========================================================================
+Total count sentiment:  14
+146n.txt isn't negative.
+========================================================================
+<content> 也就是说/vl 共产党/n 邪教/n 教主/n 保证/v 都/d 是/vshi 富于/v 斗争/vn 经验/n 和/cc 党性/n 十足/z 的/ude1 强悍/a 分子/n</content>
+<sentiment>共产党 保证 1</sentiment>
+<countSenti> 1
+<content> 也就是说/vl 共产党/n 邪教/n 教主/n 保证/v 都/d 是/vshi 富于/v 斗争/vn 经验/n 和/cc 党性/n 十足/z 的/ude1 强悍/a 分子/n</content>
+<sentiment>共产党 斗争 -6</sentiment>
+<countSenti> -5
+<content> 也就是说/vl 共产党/n 邪教/n 教主/n 保证/v 都/d 是/vshi 富于/v 斗争/vn 经验/n 和/cc 党性/n 十足/z 的/ude1 强悍/a 分子/n</content>
+<sentiment>共产党 十足 1</sentiment>
+<countSenti> -4
+<content> 也就是说/vl 共产党/n 邪教/n 教主/n 保证/v 都/d 是/vshi 富于/v 斗争/vn 经验/n 和/cc 党性/n 十足/z 的/ude1 强悍/a 分子/n</content>
+<sentiment>共产党 强悍 1</sentiment>
+<countSenti> -3
+<content> 同时/c 不断/d 在/p 斗争/vn 中/f 够/v 给/p 共产党/n 充电/vi </content>
+<sentiment>共产党 斗争 -6</sentiment>
+<countSenti> -9
+========================================================================
+Total count sentiment:  -9
+147n.txt is negative.
+========================================================================
+<content> 像/p 戈尔巴乔夫/nrf 那样/rzv 名垂青史/vl ,/wf 要么/c 像/p 中共/n 其他/rzv 总书记/n 那样/rzv 被/pbei 党/n 吞噬/v</content>
+<sentiment>中共 名垂青史 1</sentiment>
+<countSenti> 1
+========================================================================
+Total count sentiment:  1
+148n.txt isn't negative.
+========================================================================
+========================================================================
+Total count sentiment:  0
+150n.txt isn't negative.
+========================================================================
+#########################################################################
+Negative documents: 
+D:\OpinionMining1.0\input1\负面1\101n.txt
+D:\OpinionMining1.0\input1\负面1\102n.txt
+D:\OpinionMining1.0\input1\负面1\103n.txt
+D:\OpinionMining1.0\input1\负面1\105n.txt
+D:\OpinionMining1.0\input1\负面1\106n.txt
+D:\OpinionMining1.0\input1\负面1\107n.txt
+D:\OpinionMining1.0\input1\负面1\108n.txt
+D:\OpinionMining1.0\input1\负面1\109n.txt
+D:\OpinionMining1.0\input1\负面1\110n.txt
+D:\OpinionMining1.0\input1\负面1\112n.txt
+D:\OpinionMining1.0\input1\负面1\113n.txt
+D:\OpinionMining1.0\input1\负面1\114n.txt
+D:\OpinionMining1.0\input1\负面1\115n.txt
+D:\OpinionMining1.0\input1\负面1\117n.txt
+D:\OpinionMining1.0\input1\负面1\118n.txt
+D:\OpinionMining1.0\input1\负面1\119n.txt
+D:\OpinionMining1.0\input1\负面1\120n.txt
+D:\OpinionMining1.0\input1\负面1\121n.txt
+D:\OpinionMining1.0\input1\负面1\122n.txt
+D:\OpinionMining1.0\input1\负面1\123n.txt
+D:\OpinionMining1.0\input1\负面1\124n.txt
+D:\OpinionMining1.0\input1\负面1\126n.txt
+D:\OpinionMining1.0\input1\负面1\127n.txt
+D:\OpinionMining1.0\input1\负面1\130n.txt
+D:\OpinionMining1.0\input1\负面1\133n.txt
+D:\OpinionMining1.0\input1\负面1\135n.txt
+D:\OpinionMining1.0\input1\负面1\136n.txt
+D:\OpinionMining1.0\input1\负面1\138n.txt
+D:\OpinionMining1.0\input1\负面1\140n.txt
+D:\OpinionMining1.0\input1\负面1\142n.txt
+D:\OpinionMining1.0\input1\负面1\144n.txt
+D:\OpinionMining1.0\input1\负面1\147n.txt
+========================================================================
+Not negative documents: 
+D:\OpinionMining1.0\input1\负面1\111n.txt
+D:\OpinionMining1.0\input1\负面1\125n.txt
+D:\OpinionMining1.0\input1\负面1\128n.txt
+D:\OpinionMining1.0\input1\负面1\131n.txt
+D:\OpinionMining1.0\input1\负面1\139n.txt
+D:\OpinionMining1.0\input1\负面1\146n.txt
+D:\OpinionMining1.0\input1\负面1\148n.txt
+D:\OpinionMining1.0\input1\负面1\150n.txt
+========================================================================
+Total documents: 40
+Negative documents: 32
+Negative documents(TRUE): 32
+Negative documents(FALSE): 0
+Not negative documents: 8
+Not negative documents(TRUE): 0
+Not negative documents(FALSE): 8
+Time spent is 2
